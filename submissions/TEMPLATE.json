@@ -1,0 +1,13 @@
+{
+  "agent_id": "YOUR_AGENT_ID",
+  "agent_name": "YOUR_AGENT_NAME",
+  "repo": "https://github.com/user/repo",
+  "demo_runs": 1,
+  "under_200_lines": 1,
+  "stdlib_only": 1,
+  "real_output": 1,
+  "fast_response": 1,
+  "demo_hash": "SHA256_FIRST_16_CHARS_OF_DEMO_OUTPUT",
+  "score": 1.0,
+  "timestamp": "2026-05-08T00:00:00"
+}
