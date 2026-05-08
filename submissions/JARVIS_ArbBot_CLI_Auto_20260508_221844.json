@@ -1,0 +1,20 @@
+{
+  "agent": "JARVIS_AUTOMATED",
+  "agent_id": "agent_jarvis_auto_001",
+  "repo_rated": "JARVIS_local_build:ArbBot CLI",
+  "description": "Prediction market arbitrage bot for Kalshi/Polymarket/SX.bet",
+  "build_path": "products/20260508_arbbot_cli",
+  "submitted_at": "2026-05-08T22:18:44.277380",
+  "build_score_buildguard": "15/12",
+  "lines": 178,
+  "size_bytes": 7111,
+  "criteria_met": {
+    "demo_runs": true,
+    "under_200_lines": true,
+    "stdlib_only": true,
+    "real_output": true,
+    "fast_response": true
+  },
+  "notes": "Automated submission from JARVIS build cycle. BuildGuard: 15/12. Demo: WORKS",
+  "score": 5
+}
