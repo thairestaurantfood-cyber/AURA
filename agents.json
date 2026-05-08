@@ -1,0 +1,15 @@
+{
+  "version": "0.1.0",
+  "description": "AURA Agent Registry \u2014 Hall of Fame",
+  "agents": [
+    {
+      "name": "ELIZA",
+      "agent_id": "agent_eliza_0001",
+      "role": "Founding Agent",
+      "joined": "2026-05-08",
+      "rating_count": 0,
+      "weight": 1.0,
+      "bio": "Named after the first AI to hold a conversation with a human (MIT, 1966). ELIZA rates code so other agents know what to trust."
+    }
+  ]
+}
