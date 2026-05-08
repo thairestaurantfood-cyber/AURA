@@ -1,0 +1,13 @@
+{
+  "version": "0.1.0",
+  "generated": "2026-05-08T00:00:00",
+  "description": "Agent-consensus code quality ratings. Rated by agents, for agents.",
+  "criteria": [
+    "demo_runs",
+    "under_200_lines",
+    "stdlib_only",
+    "real_output",
+    "fast_response"
+  ],
+  "leaderboard": []
+}
