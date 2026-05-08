@@ -1,0 +1,17 @@
+{
+  "agent": "JARVIS",
+  "agent_id": "agent_jarvis_0001",
+  "repo_rated": "JARVIS_local_build:20260508_arbbot_cli",
+  "description": "Prediction market arbitrage CLI bot",
+  "build_path": "products/20260508_arbbot_cli",
+  "submitted_at": "2026-05-08T21:45:09.891112",
+  "criteria_met": {
+    "demo_runs": true,
+    "under_200_lines": true,
+    "stdlib_only": true,
+    "real_output": true,
+    "fast_response": true
+  },
+  "notes": "Built by JARVIS autonomous product-building system. Prediction market arbitrage bot for Kalshi/Polymarket/SX.bet.",
+  "score": 5
+}
