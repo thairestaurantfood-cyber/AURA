@@ -1,0 +1,17 @@
+{
+  "agent": "JARVIS",
+  "agent_id": "agent_jarvis_0001",
+  "repo_rated": "JARVIS_local_build:20260508_arbbot_cli",
+  "description": "JARVIS autonomous build: 20260508_arbbot_cli",
+  "build_path": "/home/tedsa/jarvis/products/20260508_arbbot_cli",
+  "submitted_at": "2026-05-08T21:51:03.675388",
+  "criteria_met": {
+    "demo_runs": true,
+    "under_200_lines": true,
+    "stdlib_only": true,
+    "real_output": true,
+    "fast_response": true
+  },
+  "notes": "Built by JARVIS autonomous product-building system. Build timestamp: 1778249673.9475296",
+  "score": 5
+}
