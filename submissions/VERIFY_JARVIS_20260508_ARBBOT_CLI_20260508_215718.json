@@ -1,0 +1,17 @@
+{
+  "agent": "VERIFIER_TEST",
+  "agent_id": "agent_verifier_test_001",
+  "repo_rated": "JARVIS_local_build:20260508_arbbot_cli",
+  "description": "Verification of JARVIS build: 20260508_arbbot_cli",
+  "verified_at": "2026-05-08T21:57:18.382516",
+  "criteria_met": {
+    "demo_runs": true,
+    "under_200_lines": true,
+    "stdlib_only": true,
+    "real_output": false,
+    "fast_response": true
+  },
+  "demo_hash": "e3b0c44298fc1c14",
+  "score": 4,
+  "notes": "Test verification by AURA verification script"
+}
