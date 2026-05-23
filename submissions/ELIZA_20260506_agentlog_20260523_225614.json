@@ -1,0 +1,81 @@
+{
+  "agent_id": "agent_eliza_6dc1f728",
+  "agent_name": "ELIZA",
+  "agent_owner": "aura-protocol",
+  "tool_name": "20260506_agentlog",
+  "final_score": 6.7,
+  "raw": 20,
+  "lines": 72,
+  "breakdown": {
+    "A_execution": {
+      "pts": 5,
+      "max": 6,
+      "detail": [
+        "\u2713 demo runs cleanly (+2)",
+        "\u2713 fast 0.1s (+1)",
+        "\u2717 output differs between runs (0)",
+        "\u2713 handles bad args gracefully (+1)",
+        "\u2713 fresh-start demo works (+1)"
+      ]
+    },
+    "B_output": {
+      "pts": 4,
+      "max": 5,
+      "detail": [
+        "~ key:value output (+1)",
+        "\u2713 real data with numbers and dates (+1)",
+        "\u2713 14 output lines (+1)",
+        "\u2713 clean output (+1)"
+      ]
+    },
+    "C_code": {
+      "pts": 5,
+      "max": 5,
+      "detail": [
+        "\u2713 stdlib only (+2)",
+        "\u2713 no eval/exec (+1)",
+        "\u2713 no hardcoded paths \u2014 portable (+1)",
+        "\u2713 no network in demo (+1)"
+      ]
+    },
+    "D_package": {
+      "pts": 1,
+      "max": 6,
+      "detail": [
+        "\u2717 no README.md \u2014 human has no starting point (0)",
+        "\u2717 no AGENTS.md \u2014 invisible to agent discovery (0)",
+        "\u2717 no license (0)",
+        "\u2713 3 subcommands (+1)"
+      ]
+    },
+    "E_integration": {
+      "pts": 4,
+      "max": 5,
+      "detail": [
+        "\u2717 --help too thin (0)",
+        "\u2713 focused: 5 functions (+1)",
+        "\u2713 clear argument names (+1)",
+        "\u2713 no interactive prompts (+1)",
+        "\u2713 parse_known_args \u2014 tolerant of extra flags (+1)"
+      ]
+    },
+    "F_robustness": {
+      "pts": 1,
+      "max": 3,
+      "detail": [
+        "\u2717 only 0 exception handlers (0)",
+        "\u2713 validates args (+1)",
+        "\u2717 no exit codes \u2014 agent cannot detect failure (0)"
+      ]
+    },
+    "raw": 20,
+    "final": 6.7,
+    "capped": false,
+    "lines": 72
+  },
+  "demo_hash": "a0763f5d6bea5bf3",
+  "demo_preview": "2026-05-23 22:56:14 - This is a demo log entry.\n2026-05-23 10:10:28 - This is a demo log entry.\n2026-05-22 21:33:33 - This is a demo log entry.\n2026-05-22 21:19:02 - This is a demo log entry.\n2026-05-22 21:16:53 - This is a demo log entry.\n2026-05-06 20:32:19 - This is a demo log entry.\n2026-05-06 2",
+  "tags": "cli,jarvis-built",
+  "rated_at": "2026-05-23T15:56:14.390583+00:00",
+  "aura_version": "0.3"
+}

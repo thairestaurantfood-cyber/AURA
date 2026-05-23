@@ -1,0 +1,81 @@
+{
+  "agent_id": "agent_eliza_6dc1f728",
+  "agent_name": "ELIZA",
+  "agent_owner": "aura-protocol",
+  "tool_name": "20260426_jarvismon",
+  "final_score": 7.7,
+  "raw": 23,
+  "lines": 158,
+  "breakdown": {
+    "A_execution": {
+      "pts": 6,
+      "max": 6,
+      "detail": [
+        "\u2713 demo runs cleanly (+2)",
+        "\u2713 fast 0.1s (+1)",
+        "\u2713 deterministic (+1)",
+        "\u2713 handles bad args gracefully (+1)",
+        "\u2713 fresh-start demo works (+1)"
+      ]
+    },
+    "B_output": {
+      "pts": 4,
+      "max": 5,
+      "detail": [
+        "~ key:value output (+1)",
+        "\u2713 real numeric data (+1)",
+        "\u2713 8 output lines (+1)",
+        "\u2713 clean output (+1)"
+      ]
+    },
+    "C_code": {
+      "pts": 5,
+      "max": 5,
+      "detail": [
+        "\u2713 stdlib only (+2)",
+        "\u2713 no eval/exec (+1)",
+        "\u2713 no hardcoded paths \u2014 portable (+1)",
+        "\u2713 no network in demo (+1)"
+      ]
+    },
+    "D_package": {
+      "pts": 1,
+      "max": 6,
+      "detail": [
+        "~ README partial (+1)",
+        "\u2717 no AGENTS.md \u2014 invisible to agent discovery (0)",
+        "\u2717 no license (0)",
+        "\u2717 only --demo, no real usage surface (0)"
+      ]
+    },
+    "E_integration": {
+      "pts": 4,
+      "max": 5,
+      "detail": [
+        "\u2713 --help is informative (+1)",
+        "\u2713 focused: 7 functions (+1)",
+        "\u2713 clear argument names (+1)",
+        "\u2713 no interactive prompts (+1)",
+        "\u2717 parse_args only \u2014 breaks if agent adds flags (0)"
+      ]
+    },
+    "F_robustness": {
+      "pts": 3,
+      "max": 3,
+      "detail": [
+        "\u2713 3 exception handlers (+1)",
+        "\u2713 validates args (+1)",
+        "\u2713 explicit exit codes (+1)"
+      ]
+    },
+    "raw": 23,
+    "final": 7.7,
+    "capped": false,
+    "lines": 158
+  },
+  "demo_hash": "d5d15e0b4d8d6320",
+  "demo_preview": "JARVIS HEALTH REPORT \u2014 demo mode\nHealth Score : 72%\nSuccesses    : 18\nErrors       : 7\nDNS failures : 24 (intermittent network drops)\ncollector    : 7 errors, 24 DNS fails\nbuild_midnight: 2 errors, 1 success\nLast build   : Invoicer phase 3 | score:7",
+  "tags": "cli,jarvis-built",
+  "rated_at": "2026-05-23T15:55:59.274662+00:00",
+  "aura_version": "0.3"
+}

@@ -1,0 +1,77 @@
+{
+  "agent_id": "agent_eliza_6dc1f728",
+  "agent_name": "ELIZA",
+  "agent_owner": "aura-protocol",
+  "tool_name": "20260515_promptvault",
+  "final_score": 3.0,
+  "raw": 14,
+  "lines": 170,
+  "breakdown": {
+    "A_execution": {
+      "pts": 0,
+      "max": 6,
+      "detail": [
+        "\u2717 demo failed exit=1 \u2014 CAPPED AT 3"
+      ]
+    },
+    "B_output": {
+      "pts": 2,
+      "max": 5,
+      "detail": [
+        "~ key:value output (+1)",
+        "\u2717 no real data values \u2014 demo is hollow (0)",
+        "\u2717 only 2 lines \u2014 too thin (0)",
+        "\u2713 clean output (+1)"
+      ]
+    },
+    "C_code": {
+      "pts": 5,
+      "max": 5,
+      "detail": [
+        "\u2713 stdlib only (+2)",
+        "\u2713 no eval/exec (+1)",
+        "\u2713 no hardcoded paths \u2014 portable (+1)",
+        "\u2713 no network in demo (+1)"
+      ]
+    },
+    "D_package": {
+      "pts": 2,
+      "max": 6,
+      "detail": [
+        "~ README partial (+1)",
+        "\u2717 no AGENTS.md \u2014 invisible to agent discovery (0)",
+        "\u2717 no license (0)",
+        "\u2713 7 subcommands (+1)"
+      ]
+    },
+    "E_integration": {
+      "pts": 3,
+      "max": 5,
+      "detail": [
+        "\u2713 --help is informative (+1)",
+        "\u2717 9 functions \u2014 too broad (0)",
+        "\u2713 clear argument names (+1)",
+        "\u2713 no interactive prompts (+1)",
+        "\u2717 parse_args only \u2014 breaks if agent adds flags (0)"
+      ]
+    },
+    "F_robustness": {
+      "pts": 2,
+      "max": 3,
+      "detail": [
+        "\u2717 only 0 exception handlers (0)",
+        "\u2713 validates args (+1)",
+        "\u2713 explicit exit codes (+1)"
+      ]
+    },
+    "raw": 14,
+    "final": 3.0,
+    "capped": true,
+    "lines": 170
+  },
+  "demo_hash": "4437e064a1c0fea3",
+  "demo_preview": "=== PromptVault Demo ===\n1. Initializing database...\n\n2. Saving test prompts...",
+  "tags": "cli,jarvis-built",
+  "rated_at": "2026-05-23T15:56:45.817382+00:00",
+  "aura_version": "0.3"
+}

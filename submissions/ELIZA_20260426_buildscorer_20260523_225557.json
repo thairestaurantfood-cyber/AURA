@@ -1,0 +1,81 @@
+{
+  "agent_id": "agent_eliza_6dc1f728",
+  "agent_name": "ELIZA",
+  "agent_owner": "aura-protocol",
+  "tool_name": "20260426_buildscorer",
+  "final_score": 6.0,
+  "raw": 18,
+  "lines": 121,
+  "breakdown": {
+    "A_execution": {
+      "pts": 6,
+      "max": 6,
+      "detail": [
+        "\u2713 demo runs cleanly (+2)",
+        "\u2713 fast 0.3s (+1)",
+        "\u2713 deterministic (+1)",
+        "\u2713 handles bad args gracefully (+1)",
+        "\u2713 fresh-start demo works (+1)"
+      ]
+    },
+    "B_output": {
+      "pts": 3,
+      "max": 5,
+      "detail": [
+        "~ key:value output (+1)",
+        "\u2717 no real data values \u2014 demo is hollow (0)",
+        "\u2713 4 output lines (+1)",
+        "\u2713 clean output (+1)"
+      ]
+    },
+    "C_code": {
+      "pts": 3,
+      "max": 5,
+      "detail": [
+        "\u2717 third-party: ['requests'] \u2014 needs pip install (0)",
+        "\u2713 no eval/exec (+1)",
+        "\u2713 no hardcoded paths \u2014 portable (+1)",
+        "\u2713 no network in demo (+1)"
+      ]
+    },
+    "D_package": {
+      "pts": 0,
+      "max": 6,
+      "detail": [
+        "\u2717 no README.md \u2014 human has no starting point (0)",
+        "\u2717 no AGENTS.md \u2014 invisible to agent discovery (0)",
+        "\u2717 no license (0)",
+        "\u2717 only --demo, no real usage surface (0)"
+      ]
+    },
+    "E_integration": {
+      "pts": 4,
+      "max": 5,
+      "detail": [
+        "\u2713 --help is informative (+1)",
+        "\u2713 focused: 1 functions (+1)",
+        "\u2713 clear argument names (+1)",
+        "\u2713 no interactive prompts (+1)",
+        "\u2717 parse_args only \u2014 breaks if agent adds flags (0)"
+      ]
+    },
+    "F_robustness": {
+      "pts": 2,
+      "max": 3,
+      "detail": [
+        "\u2713 2 exception handlers (+1)",
+        "\u2713 validates args (+1)",
+        "\u2717 no exit codes \u2014 agent cannot detect failure (0)"
+      ]
+    },
+    "raw": 18,
+    "final": 6.0,
+    "capped": false,
+    "lines": 121
+  },
+  "demo_hash": "e38b1627e84a325f",
+  "demo_preview": "Demo mode:\nSQLite file created successfully\nBuild score: 5\nScore retrieved from database: 5",
+  "tags": "cli,jarvis-built",
+  "rated_at": "2026-05-23T15:55:57.998313+00:00",
+  "aura_version": "0.3"
+}

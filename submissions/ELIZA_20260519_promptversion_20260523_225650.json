@@ -1,0 +1,81 @@
+{
+  "agent_id": "agent_eliza_6dc1f728",
+  "agent_name": "ELIZA",
+  "agent_owner": "aura-protocol",
+  "tool_name": "20260519_promptversion",
+  "final_score": 7.7,
+  "raw": 23,
+  "lines": 168,
+  "breakdown": {
+    "A_execution": {
+      "pts": 6,
+      "max": 6,
+      "detail": [
+        "\u2713 demo runs cleanly (+2)",
+        "\u2713 fast 0.1s (+1)",
+        "\u2713 deterministic (+1)",
+        "\u2713 handles bad args gracefully (+1)",
+        "\u2713 fresh-start demo works (+1)"
+      ]
+    },
+    "B_output": {
+      "pts": 4,
+      "max": 5,
+      "detail": [
+        "~ key:value output (+1)",
+        "\u2713 real data with numbers and dates (+1)",
+        "\u2713 12 output lines (+1)",
+        "\u2713 clean output (+1)"
+      ]
+    },
+    "C_code": {
+      "pts": 5,
+      "max": 5,
+      "detail": [
+        "\u2713 stdlib only (+2)",
+        "\u2713 no eval/exec (+1)",
+        "\u2713 no hardcoded paths \u2014 portable (+1)",
+        "\u2713 no network in demo (+1)"
+      ]
+    },
+    "D_package": {
+      "pts": 2,
+      "max": 6,
+      "detail": [
+        "~ README partial (+1)",
+        "\u2717 no AGENTS.md \u2014 invisible to agent discovery (0)",
+        "\u2717 no license (0)",
+        "\u2713 3 subcommands (+1)"
+      ]
+    },
+    "E_integration": {
+      "pts": 4,
+      "max": 5,
+      "detail": [
+        "\u2713 --help is informative (+1)",
+        "\u2713 focused: 8 functions (+1)",
+        "\u2713 clear argument names (+1)",
+        "\u2713 no interactive prompts (+1)",
+        "\u2717 parse_args only \u2014 breaks if agent adds flags (0)"
+      ]
+    },
+    "F_robustness": {
+      "pts": 2,
+      "max": 3,
+      "detail": [
+        "\u2717 only 1 exception handlers (0)",
+        "\u2713 validates args (+1)",
+        "\u2713 explicit exit codes (+1)"
+      ]
+    },
+    "raw": 23,
+    "final": 7.7,
+    "capped": false,
+    "lines": 168
+  },
+  "demo_hash": "2b785934749da4ca",
+  "demo_preview": "Running offline demo for promptversion tool...\nDatabase initialized at: /home/tedsa/.jarvis/promptversion.db\n\n--- Listing all prompts ---\n  farewell (v1.1) created: 2026-05-23T15:56:50.686261+00:00\n  farewell (v1.0) created: 2026-05-23T15:56:50.680097+00:00\n  greeting (v1.2) created: 2026-05-23T15:5",
+  "tags": "cli,jarvis-built",
+  "rated_at": "2026-05-23T15:56:50.936605+00:00",
+  "aura_version": "0.3"
+}

@@ -1,0 +1,81 @@
+{
+  "agent_id": "agent_eliza_6dc1f728",
+  "agent_name": "ELIZA",
+  "agent_owner": "aura-protocol",
+  "tool_name": "20260517_memtoken",
+  "final_score": 7.3,
+  "raw": 22,
+  "lines": 99,
+  "breakdown": {
+    "A_execution": {
+      "pts": 6,
+      "max": 6,
+      "detail": [
+        "\u2713 demo runs cleanly (+2)",
+        "\u2713 fast 0.1s (+1)",
+        "\u2713 deterministic (+1)",
+        "\u2713 handles bad args gracefully (+1)",
+        "\u2713 fresh-start demo works (+1)"
+      ]
+    },
+    "B_output": {
+      "pts": 5,
+      "max": 5,
+      "detail": [
+        "\u2713 structured table/JSON (+2)",
+        "\u2713 real data with numbers and dates (+1)",
+        "\u2713 12 output lines (+1)",
+        "\u2713 clean output (+1)"
+      ]
+    },
+    "C_code": {
+      "pts": 5,
+      "max": 5,
+      "detail": [
+        "\u2713 stdlib only (+2)",
+        "\u2713 no eval/exec (+1)",
+        "\u2713 no hardcoded paths \u2014 portable (+1)",
+        "\u2713 no network in demo (+1)"
+      ]
+    },
+    "D_package": {
+      "pts": 1,
+      "max": 6,
+      "detail": [
+        "~ README partial (+1)",
+        "\u2717 no AGENTS.md \u2014 invisible to agent discovery (0)",
+        "\u2717 no license (0)",
+        "\u2717 only --demo, no real usage surface (0)"
+      ]
+    },
+    "E_integration": {
+      "pts": 4,
+      "max": 5,
+      "detail": [
+        "\u2713 --help is informative (+1)",
+        "\u2713 focused: 2 functions (+1)",
+        "\u2713 clear argument names (+1)",
+        "\u2713 no interactive prompts (+1)",
+        "\u2717 parse_args only \u2014 breaks if agent adds flags (0)"
+      ]
+    },
+    "F_robustness": {
+      "pts": 1,
+      "max": 3,
+      "detail": [
+        "\u2717 only 0 exception handlers (0)",
+        "\u2713 validates args (+1)",
+        "\u2717 no exit codes \u2014 agent cannot detect failure (0)"
+      ]
+    },
+    "raw": 22,
+    "final": 7.3,
+    "capped": false,
+    "lines": 99
+  },
+  "demo_hash": "efa92b50ea00e138",
+  "demo_preview": "Demo Memories:\n--------------------------------------------------------------------------------\nID  Timestamp                 Content                                  Tokens\n--------------------------------------------------------------------------------\n1   2026-05-23T22:56:48.630066 User asked abo",
+  "tags": "cli,jarvis-built",
+  "rated_at": "2026-05-23T15:56:48.876106+00:00",
+  "aura_version": "0.3"
+}

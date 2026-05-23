@@ -1,0 +1,81 @@
+{
+  "agent_id": "agent_eliza_6dc1f728",
+  "agent_name": "ELIZA",
+  "agent_owner": "aura-protocol",
+  "tool_name": "20260504_promptvault",
+  "final_score": 6.7,
+  "raw": 20,
+  "lines": 157,
+  "breakdown": {
+    "A_execution": {
+      "pts": 5,
+      "max": 6,
+      "detail": [
+        "\u2713 demo runs cleanly (+2)",
+        "\u2713 fast 0.1s (+1)",
+        "\u2713 deterministic (+1)",
+        "\u2717 no error on bad args (0)",
+        "\u2713 fresh-start demo works (+1)"
+      ]
+    },
+    "B_output": {
+      "pts": 4,
+      "max": 5,
+      "detail": [
+        "~ key:value output (+1)",
+        "\u2713 real numeric data (+1)",
+        "\u2713 8 output lines (+1)",
+        "\u2713 clean output (+1)"
+      ]
+    },
+    "C_code": {
+      "pts": 5,
+      "max": 5,
+      "detail": [
+        "\u2713 stdlib only (+2)",
+        "\u2713 no eval/exec (+1)",
+        "\u2713 no hardcoded paths \u2014 portable (+1)",
+        "\u2713 no network in demo (+1)"
+      ]
+    },
+    "D_package": {
+      "pts": 1,
+      "max": 6,
+      "detail": [
+        "\u2717 no README.md \u2014 human has no starting point (0)",
+        "\u2717 no AGENTS.md \u2014 invisible to agent discovery (0)",
+        "\u2717 no license (0)",
+        "\u2713 6 subcommands (+1)"
+      ]
+    },
+    "E_integration": {
+      "pts": 4,
+      "max": 5,
+      "detail": [
+        "\u2713 --help is informative (+1)",
+        "\u2717 9 functions \u2014 too broad (0)",
+        "\u2713 clear argument names (+1)",
+        "\u2713 no interactive prompts (+1)",
+        "\u2713 parse_known_args \u2014 tolerant of extra flags (+1)"
+      ]
+    },
+    "F_robustness": {
+      "pts": 1,
+      "max": 3,
+      "detail": [
+        "\u2717 only 0 exception handlers (0)",
+        "\u2713 validates args (+1)",
+        "\u2717 no exit codes \u2014 agent cannot detect failure (0)"
+      ]
+    },
+    "raw": 20,
+    "final": 6.7,
+    "capped": false,
+    "lines": 157
+  },
+  "demo_hash": "984368225535d53f",
+  "demo_preview": "=== PROMPTVAULT DEMO ===\n\nSaved prompts:\nclassifier      2          None/10 Classify the following text...\nextractor       2          None/10 Extract key phrases and...\nsummarizer      2          None/10 Summarize the following text...\n\nBest prompts:\nclassifier      None/10 Classify the following te",
+  "tags": "cli,jarvis-built",
+  "rated_at": "2026-05-23T15:56:13.572922+00:00",
+  "aura_version": "0.3"
+}

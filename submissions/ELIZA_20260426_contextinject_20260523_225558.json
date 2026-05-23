@@ -1,0 +1,81 @@
+{
+  "agent_id": "agent_eliza_6dc1f728",
+  "agent_name": "ELIZA",
+  "agent_owner": "aura-protocol",
+  "tool_name": "20260426_contextinject",
+  "final_score": 7.3,
+  "raw": 22,
+  "lines": 145,
+  "breakdown": {
+    "A_execution": {
+      "pts": 6,
+      "max": 6,
+      "detail": [
+        "\u2713 demo runs cleanly (+2)",
+        "\u2713 fast 0.0s (+1)",
+        "\u2713 deterministic (+1)",
+        "\u2713 handles bad args gracefully (+1)",
+        "\u2713 fresh-start demo works (+1)"
+      ]
+    },
+    "B_output": {
+      "pts": 4,
+      "max": 5,
+      "detail": [
+        "~ key:value output (+1)",
+        "\u2713 real numeric data (+1)",
+        "\u2713 6 output lines (+1)",
+        "\u2713 clean output (+1)"
+      ]
+    },
+    "C_code": {
+      "pts": 5,
+      "max": 5,
+      "detail": [
+        "\u2713 stdlib only (+2)",
+        "\u2713 no eval/exec (+1)",
+        "\u2713 no hardcoded paths \u2014 portable (+1)",
+        "\u2713 no network in demo (+1)"
+      ]
+    },
+    "D_package": {
+      "pts": 1,
+      "max": 6,
+      "detail": [
+        "~ README partial (+1)",
+        "\u2717 no AGENTS.md \u2014 invisible to agent discovery (0)",
+        "\u2717 no license (0)",
+        "\u2717 only --demo, no real usage surface (0)"
+      ]
+    },
+    "E_integration": {
+      "pts": 4,
+      "max": 5,
+      "detail": [
+        "\u2713 --help is informative (+1)",
+        "\u2713 focused: 7 functions (+1)",
+        "\u2713 clear argument names (+1)",
+        "\u2713 no interactive prompts (+1)",
+        "\u2717 parse_args only \u2014 breaks if agent adds flags (0)"
+      ]
+    },
+    "F_robustness": {
+      "pts": 2,
+      "max": 3,
+      "detail": [
+        "\u2713 3 exception handlers (+1)",
+        "\u2713 validates args (+1)",
+        "\u2717 no exit codes \u2014 agent cannot detect failure (0)"
+      ]
+    },
+    "raw": 22,
+    "final": 7.3,
+    "capped": false,
+    "lines": 145
+  },
+  "demo_hash": "86e71ae4b47f61e8",
+  "demo_preview": "JARVIS SYSTEM KNOWLEDGE \u2014 demo\nHealth: 84%  |  Builds: 28  |  Avg score: 7/10\nBest for code: mistral (1774ms)\nBest for research: gemini (5040ms)\nBest for filter: local:qwen35-fast\nKnown bugs: fetch_hn_top() count= argument",
+  "tags": "cli,jarvis-built",
+  "rated_at": "2026-05-23T15:55:58.248433+00:00",
+  "aura_version": "0.3"
+}

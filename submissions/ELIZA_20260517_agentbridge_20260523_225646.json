@@ -1,0 +1,81 @@
+{
+  "agent_id": "agent_eliza_6dc1f728",
+  "agent_name": "ELIZA",
+  "agent_owner": "aura-protocol",
+  "tool_name": "20260517_agentbridge",
+  "final_score": 7.7,
+  "raw": 23,
+  "lines": 189,
+  "breakdown": {
+    "A_execution": {
+      "pts": 6,
+      "max": 6,
+      "detail": [
+        "\u2713 demo runs cleanly (+2)",
+        "\u2713 fast 0.1s (+1)",
+        "\u2713 deterministic (+1)",
+        "\u2713 handles bad args gracefully (+1)",
+        "\u2713 fresh-start demo works (+1)"
+      ]
+    },
+    "B_output": {
+      "pts": 5,
+      "max": 5,
+      "detail": [
+        "\u2713 structured table/JSON (+2)",
+        "\u2713 real data with numbers and dates (+1)",
+        "\u2713 5 output lines (+1)",
+        "\u2713 clean output (+1)"
+      ]
+    },
+    "C_code": {
+      "pts": 4,
+      "max": 5,
+      "detail": [
+        "\u2713 stdlib only (+2)",
+        "\u2713 no eval/exec (+1)",
+        "\u2717 hardcoded paths: ['home'] (0)",
+        "\u2713 no network in demo (+1)"
+      ]
+    },
+    "D_package": {
+      "pts": 2,
+      "max": 6,
+      "detail": [
+        "~ README partial (+1)",
+        "\u2717 no AGENTS.md \u2014 invisible to agent discovery (0)",
+        "\u2717 no license (0)",
+        "\u2713 2 subcommands (+1)"
+      ]
+    },
+    "E_integration": {
+      "pts": 5,
+      "max": 5,
+      "detail": [
+        "\u2713 --help is informative (+1)",
+        "\u2713 focused: 2 functions (+1)",
+        "\u2713 clear argument names (+1)",
+        "\u2713 no interactive prompts (+1)",
+        "\u2713 parse_known_args \u2014 tolerant of extra flags (+1)"
+      ]
+    },
+    "F_robustness": {
+      "pts": 1,
+      "max": 3,
+      "detail": [
+        "\u2717 only 1 exception handlers (0)",
+        "\u2713 validates args (+1)",
+        "\u2717 no exit codes \u2014 agent cannot detect failure (0)"
+      ]
+    },
+    "raw": 23,
+    "final": 7.7,
+    "capped": false,
+    "lines": 189
+  },
+  "demo_hash": "0ffc7b84c6e9d326",
+  "demo_preview": "ID    Name            Description                              Timeout  Created\n----------------------------------------------------------------------------------------------------\n1     tree            List directory contents recursively using tree command 30       2026-05-23T22:56:46.238953\n2     ",
+  "tags": "cli,jarvis-built",
+  "rated_at": "2026-05-23T15:56:46.450901+00:00",
+  "aura_version": "0.3"
+}

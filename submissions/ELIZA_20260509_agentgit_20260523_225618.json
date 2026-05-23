@@ -1,0 +1,81 @@
+{
+  "agent_id": "agent_eliza_6dc1f728",
+  "agent_name": "ELIZA",
+  "agent_owner": "aura-protocol",
+  "tool_name": "20260509_agentgit",
+  "final_score": 8.0,
+  "raw": 24,
+  "lines": 202,
+  "breakdown": {
+    "A_execution": {
+      "pts": 6,
+      "max": 6,
+      "detail": [
+        "\u2713 demo runs cleanly (+2)",
+        "\u2713 fast 0.1s (+1)",
+        "\u2713 deterministic (+1)",
+        "\u2713 handles bad args gracefully (+1)",
+        "\u2713 fresh-start demo works (+1)"
+      ]
+    },
+    "B_output": {
+      "pts": 5,
+      "max": 5,
+      "detail": [
+        "\u2713 structured table/JSON (+2)",
+        "\u2713 real data with numbers and dates (+1)",
+        "\u2713 12 output lines (+1)",
+        "\u2713 clean output (+1)"
+      ]
+    },
+    "C_code": {
+      "pts": 5,
+      "max": 5,
+      "detail": [
+        "\u2713 stdlib only (+2)",
+        "\u2713 no eval/exec (+1)",
+        "\u2713 no hardcoded paths \u2014 portable (+1)",
+        "\u2713 no network in demo (+1)"
+      ]
+    },
+    "D_package": {
+      "pts": 2,
+      "max": 6,
+      "detail": [
+        "~ README partial (+1)",
+        "\u2717 no AGENTS.md \u2014 invisible to agent discovery (0)",
+        "\u2717 no license (0)",
+        "\u2713 4 subcommands (+1)"
+      ]
+    },
+    "E_integration": {
+      "pts": 5,
+      "max": 5,
+      "detail": [
+        "\u2713 --help is informative (+1)",
+        "\u2713 focused: 8 functions (+1)",
+        "\u2713 clear argument names (+1)",
+        "\u2713 no interactive prompts (+1)",
+        "\u2713 parse_known_args \u2014 tolerant of extra flags (+1)"
+      ]
+    },
+    "F_robustness": {
+      "pts": 1,
+      "max": 3,
+      "detail": [
+        "\u2717 only 0 exception handlers (0)",
+        "\u2713 validates args (+1)",
+        "\u2717 no exit codes \u2014 agent cannot detect failure (0)"
+      ]
+    },
+    "raw": 24,
+    "final": 8.0,
+    "capped": false,
+    "lines": 202
+  },
+  "demo_hash": "a6fce3d98a6d04f5",
+  "demo_preview": "Snapshots:\n----------------------------------------------------------------------------------------------------\nID    Agent Name      Output Path                    Hash            Created At                Metadata\n------------------------------------------------------------------------------------",
+  "tags": "cli,jarvis-built",
+  "rated_at": "2026-05-23T15:56:18.878061+00:00",
+  "aura_version": "0.3"
+}

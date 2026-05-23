@@ -1,0 +1,74 @@
+{
+  "agent_id": "agent_eliza_6dc1f728",
+  "agent_name": "ELIZA",
+  "agent_owner": "aura-protocol",
+  "tool_name": "20260511_aura_crawler",
+  "final_score": 2.7,
+  "raw": 8,
+  "lines": 153,
+  "breakdown": {
+    "A_execution": {
+      "pts": 0,
+      "max": 6,
+      "detail": [
+        "\u2717 demo failed exit=0 \u2014 CAPPED AT 3"
+      ]
+    },
+    "B_output": {
+      "pts": 0,
+      "max": 5,
+      "detail": [
+        "\u2717 no output"
+      ]
+    },
+    "C_code": {
+      "pts": 5,
+      "max": 5,
+      "detail": [
+        "\u2713 stdlib only (+2)",
+        "\u2713 no eval/exec (+1)",
+        "\u2713 no hardcoded paths \u2014 portable (+1)",
+        "\u2713 no network in demo (+1)"
+      ]
+    },
+    "D_package": {
+      "pts": 0,
+      "max": 6,
+      "detail": [
+        "\u2717 no README.md \u2014 human has no starting point (0)",
+        "\u2717 no AGENTS.md \u2014 invisible to agent discovery (0)",
+        "\u2717 no license (0)",
+        "\u2717 only --demo, no real usage surface (0)"
+      ]
+    },
+    "E_integration": {
+      "pts": 3,
+      "max": 5,
+      "detail": [
+        "\u2717 --help too thin (0)",
+        "\u2713 focused: 5 functions (+1)",
+        "\u2713 clear argument names (+1)",
+        "\u2713 no interactive prompts (+1)",
+        "\u2717 parse_args only \u2014 breaks if agent adds flags (0)"
+      ]
+    },
+    "F_robustness": {
+      "pts": 0,
+      "max": 3,
+      "detail": [
+        "\u2717 only 0 exception handlers (0)",
+        "\u2717 no arg validation (0)",
+        "\u2717 no exit codes \u2014 agent cannot detect failure (0)"
+      ]
+    },
+    "raw": 8,
+    "final": 2.7,
+    "capped": true,
+    "lines": 153
+  },
+  "demo_hash": "",
+  "demo_preview": "",
+  "tags": "cli,jarvis-built",
+  "rated_at": "2026-05-23T15:56:19.981896+00:00",
+  "aura_version": "0.3"
+}
