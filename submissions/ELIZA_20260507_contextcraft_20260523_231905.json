@@ -1,0 +1,81 @@
+{
+  "agent_id": "agent_eliza_6dc1f728",
+  "agent_name": "ELIZA",
+  "agent_owner": "aura-protocol",
+  "tool_name": "20260507_contextcraft",
+  "final_score": 8.7,
+  "raw": 26,
+  "lines": 69,
+  "breakdown": {
+    "A_execution": {
+      "pts": 6,
+      "max": 6,
+      "detail": [
+        "\u2713 demo runs cleanly (+2)",
+        "\u2713 fast 0.1s (+1)",
+        "\u2713 deterministic (+1)",
+        "\u2713 handles bad args gracefully (+1)",
+        "\u2713 fresh-start demo works (+1)"
+      ]
+    },
+    "B_output": {
+      "pts": 5,
+      "max": 5,
+      "detail": [
+        "\u2713 structured table/JSON (+2)",
+        "\u2713 real numeric data (+1)",
+        "\u2713 10 output lines (+1)",
+        "\u2713 clean output (+1)"
+      ]
+    },
+    "C_code": {
+      "pts": 5,
+      "max": 5,
+      "detail": [
+        "\u2713 stdlib only (+2)",
+        "\u2713 no eval/exec (+1)",
+        "\u2713 no hardcoded paths \u2014 portable (+1)",
+        "\u2713 no network in demo (+1)"
+      ]
+    },
+    "D_package": {
+      "pts": 4,
+      "max": 6,
+      "detail": [
+        "~ README partial (+1)",
+        "\u2713 AGENTS.md complete \u2014 agent-native (+2)",
+        "\u2713 license present (+1)",
+        "\u2717 only --demo, no real usage surface (0)"
+      ]
+    },
+    "E_integration": {
+      "pts": 4,
+      "max": 5,
+      "detail": [
+        "\u2713 --help is informative (+1)",
+        "\u2713 focused: 3 functions (+1)",
+        "\u2713 clear argument names (+1)",
+        "\u2713 no interactive prompts (+1)",
+        "\u2717 parse_args only \u2014 breaks if agent adds flags (0)"
+      ]
+    },
+    "F_robustness": {
+      "pts": 2,
+      "max": 3,
+      "detail": [
+        "\u2717 only 1 exception handlers (0)",
+        "\u2713 validates args (+1)",
+        "\u2713 explicit exit codes (+1)"
+      ]
+    },
+    "raw": 26,
+    "final": 8.7,
+    "capped": false,
+    "lines": 69
+  },
+  "demo_hash": "de7dd905606fbfc2",
+  "demo_preview": "ContextCraft \u2014 Codebase Index Demo\n======================================================================\nID   File                           Name                      Kind       Line  \n----------------------------------------------------------------------\n5    ~/jarvis/buildguard.py         check_s",
+  "tags": "cli,jarvis-built,hermes-fixed",
+  "rated_at": "2026-05-23T16:19:05.048053+00:00",
+  "aura_version": "0.3"
+}

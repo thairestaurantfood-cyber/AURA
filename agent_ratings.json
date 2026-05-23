@@ -1,6 +1,6 @@
 {
   "version": "0.3",
-  "generated": "2026-05-23T15:56:56.243482+00:00",
+  "generated": "2026-05-23T16:19:15.901831+00:00",
   "tagline": "AURA \u2014 The Agent Registry. Find tools that work. Rate tools that matter.",
   "scoring": {
     "A_execution": "max 6 \u2014 can an agent run this without human help?",
@@ -23,22 +23,73 @@
     {
       "rank": 1,
       "tool": "20260502_freelancer_pro_suite",
-      "score": 8.3,
-      "raters": 1,
+      "score": 9.0,
+      "raters": 2,
       "breakdown": {
         "A": 6.0,
         "B": 5.0,
         "C": 5.0,
-        "D": 3.0,
+        "D": 4.5,
         "E": 5.0,
-        "F": 1.0
+        "F": 1.5
       },
-      "lines": 203,
-      "tags": "cli,jarvis-built",
+      "lines": 208,
+      "tags": "cli,jarvis-built,hermes-fixed",
       "demo_preview": "\u2705 Demo data loaded!\n\n\n\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557\n\u2551     FREELANCER PRO SUITE \u2014 SUMMARY   \u2551\n\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550"
     },
     {
       "rank": 2,
+      "tool": "20260507_hermeswatch",
+      "score": 8.7,
+      "raters": 2,
+      "breakdown": {
+        "A": 6.0,
+        "B": 5.0,
+        "C": 5.0,
+        "D": 3.5,
+        "E": 5.0,
+        "F": 1.5
+      },
+      "lines": 103,
+      "tags": "cli,jarvis-built,hermes-fixed",
+      "demo_preview": "HermesWatch \u2014 Agent Status Dashboard\n===========================================================================\nID   Ag"
+    },
+    {
+      "rank": 3,
+      "tool": "20260510_clitrack",
+      "score": 8.7,
+      "raters": 2,
+      "breakdown": {
+        "A": 6.0,
+        "B": 5.0,
+        "C": 5.0,
+        "D": 3.5,
+        "E": 5.0,
+        "F": 1.5
+      },
+      "lines": 131,
+      "tags": "cli,jarvis-built,hermes-fixed",
+      "demo_preview": "=== CliTrack Demo Records ===\nID  Timestamp           Source Type    Amount   Description     Category   Tags    \n------"
+    },
+    {
+      "rank": 4,
+      "tool": "20260520_promptvault",
+      "score": 8.7,
+      "raters": 2,
+      "breakdown": {
+        "A": 6.0,
+        "B": 5.0,
+        "C": 5.0,
+        "D": 3.5,
+        "E": 5.0,
+        "F": 1.5
+      },
+      "lines": 148,
+      "tags": "cli,jarvis-built,hermes-fixed",
+      "demo_preview": "Name           Version   Tags                Timestamp           \n------------------------------------------------------"
+    },
+    {
+      "rank": 5,
       "tool": "20260503_doublecheck_cli",
       "score": 8.3,
       "raters": 1,
@@ -55,7 +106,7 @@
       "demo_preview": "\u26a0\ufe0f  OVERLAPPING BOOKINGS DETECTED:\n  Alice (2024-05-29 23:26:40) overlaps with Bob (2024-05-29 23:56:40)\n  Bob (2024-05-"
     },
     {
-      "rank": 3,
+      "rank": 6,
       "tool": "20260506_contextcraft",
       "score": 8.3,
       "raters": 1,
@@ -72,7 +123,7 @@
       "demo_preview": "Demo Files:\n----------------------------------------------------------------------\nPath                           Langua"
     },
     {
-      "rank": 4,
+      "rank": 7,
       "tool": "20260520_localcache",
       "score": 8.3,
       "raters": 1,
@@ -89,7 +140,24 @@
       "demo_preview": "Key            Timestamp           Command                       \n------------------------------------------------------"
     },
     {
-      "rank": 5,
+      "rank": 8,
+      "tool": "20260507_contextcraft",
+      "score": 8.0,
+      "raters": 2,
+      "breakdown": {
+        "A": 6.0,
+        "B": 5.0,
+        "C": 5.0,
+        "D": 2.5,
+        "E": 4.0,
+        "F": 1.5
+      },
+      "lines": 69,
+      "tags": "cli,jarvis-built,hermes-fixed",
+      "demo_preview": "ContextCraft \u2014 Codebase Index Demo\n======================================================================\nID   File     "
+    },
+    {
+      "rank": 9,
       "tool": "20260503_pyanalyst",
       "score": 8.0,
       "raters": 1,
@@ -106,24 +174,7 @@
       "demo_preview": "=== DEMO DATASETS ===\nDataset: Sample Sales | /data/sales.csv\nDataset: Customer Churn | /data/churn.csv\n\n=== DEMO INSIGH"
     },
     {
-      "rank": 6,
-      "tool": "20260507_hermeswatch",
-      "score": 8.0,
-      "raters": 1,
-      "breakdown": {
-        "A": 6.0,
-        "B": 5.0,
-        "C": 5.0,
-        "D": 2.0,
-        "E": 5.0,
-        "F": 1.0
-      },
-      "lines": 98,
-      "tags": "cli,jarvis-built",
-      "demo_preview": "HermesWatch \u2014 Agent Status Dashboard\n===========================================================================\nID   Ag"
-    },
-    {
-      "rank": 7,
+      "rank": 10,
       "tool": "20260508_paroquant-cli",
       "score": 8.0,
       "raters": 1,
@@ -140,7 +191,7 @@
       "demo_preview": "Model Quantization Results:\n------------------------------------------------------------\nName            Orig Size  Quan"
     },
     {
-      "rank": 8,
+      "rank": 11,
       "tool": "20260509_agentgit",
       "score": 8.0,
       "raters": 1,
@@ -157,24 +208,7 @@
       "demo_preview": "Snapshots:\n----------------------------------------------------------------------------------------------------\nID    Ag"
     },
     {
-      "rank": 9,
-      "tool": "20260510_clitrack",
-      "score": 8.0,
-      "raters": 1,
-      "breakdown": {
-        "A": 6.0,
-        "B": 5.0,
-        "C": 5.0,
-        "D": 2.0,
-        "E": 5.0,
-        "F": 1.0
-      },
-      "lines": 126,
-      "tags": "cli,jarvis-built",
-      "demo_preview": "=== CliTrack Demo Records ===\nID  Timestamp           Source Type    Amount   Description     Category   Tags    \n------"
-    },
-    {
-      "rank": 10,
+      "rank": 12,
       "tool": "20260513_acwallet",
       "score": 8.0,
       "raters": 1,
@@ -191,7 +225,7 @@
       "demo_preview": "Wallet created for agent 'alice' with starting balance 0 AC.\nWallet created for agent 'bob' with starting balance 0 AC.\n"
     },
     {
-      "rank": 11,
+      "rank": 13,
       "tool": "20260513_agent_registry",
       "score": 8.0,
       "raters": 1,
@@ -208,7 +242,7 @@
       "demo_preview": "=== Agent Discovery & Identity Demo ===\n\nAgent 'summarizer-bot' registered successfully.\nAgent 'translator-bot' register"
     },
     {
-      "rank": 12,
+      "rank": 14,
       "tool": "20260514_voker",
       "score": 8.0,
       "raters": 1,
@@ -225,7 +259,7 @@
       "demo_preview": "Voker Demo Report:\n================================================================================\nID    Timestamp     "
     },
     {
-      "rank": 13,
+      "rank": 15,
       "tool": "20260516_llm_uk",
       "score": 8.0,
       "raters": 1,
@@ -242,7 +276,7 @@
       "demo_preview": "LLM UK Demo Results\n================================================================================\nID | Prompt        "
     },
     {
-      "rank": 14,
+      "rank": 16,
       "tool": "20260517_claudemd",
       "score": 8.0,
       "raters": 1,
@@ -259,7 +293,7 @@
       "demo_preview": "Inserted scan_results\n+----+-------------+------------------+---------------------+\n| id | total_files | primary_languag"
     },
     {
-      "rank": 15,
+      "rank": 17,
       "tool": "20260517_mempalace",
       "score": 8.0,
       "raters": 1,
@@ -276,24 +310,7 @@
       "demo_preview": "ID    Timestamp                 Content                                                      Tokens   Type        \n-----"
     },
     {
-      "rank": 16,
-      "tool": "20260520_promptvault",
-      "score": 8.0,
-      "raters": 1,
-      "breakdown": {
-        "A": 6.0,
-        "B": 5.0,
-        "C": 5.0,
-        "D": 2.0,
-        "E": 5.0,
-        "F": 1.0
-      },
-      "lines": 143,
-      "tags": "cli,jarvis-built",
-      "demo_preview": "Name           Version   Tags                Timestamp           \n------------------------------------------------------"
-    },
-    {
-      "rank": 17,
+      "rank": 18,
       "tool": "20260520_raglite",
       "score": 8.0,
       "raters": 1,
@@ -310,7 +327,7 @@
       "demo_preview": "ID    Content                                  Source          Amount    \n----------------------------------------------"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "tool": "20260522_pyverifygate",
       "score": 8.0,
       "raters": 1,
@@ -327,7 +344,7 @@
       "demo_preview": "ID    Code                           Invariant            Bound      Created             \n------------------------------"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "tool": "20260426_jarvismon",
       "score": 7.7,
       "raters": 1,
@@ -344,7 +361,7 @@
       "demo_preview": "JARVIS HEALTH REPORT \u2014 demo mode\nHealth Score : 72%\nSuccesses    : 18\nErrors       : 7\nDNS failures : 24 (intermittent n"
     },
     {
-      "rank": 20,
+      "rank": 21,
       "tool": "20260503_agentbridge",
       "score": 7.7,
       "raters": 1,
@@ -361,7 +378,7 @@
       "demo_preview": "==============================================================\n  AGENTBRIDGE \u2014 Turn any CLI into an MCP server\n========="
     },
     {
-      "rank": 21,
+      "rank": 22,
       "tool": "20260504_agentos",
       "score": 7.7,
       "raters": 1,
@@ -378,7 +395,7 @@
       "demo_preview": "ID    Name            Description          Command\n---------------------------------------------\n1     Demo Agent      A"
     },
     {
-      "rank": 22,
+      "rank": 23,
       "tool": "20260514_mcp_inspector",
       "score": 7.7,
       "raters": 1,
@@ -395,7 +412,7 @@
       "demo_preview": "ID | Timestamp | Server       | Tool            | Parameters                   | Response(ms) | Success | Error\n--------"
     },
     {
-      "rank": 23,
+      "rank": 24,
       "tool": "20260517_agentbridge",
       "score": 7.7,
       "raters": 1,
@@ -412,7 +429,7 @@
       "demo_preview": "ID    Name            Description                              Timeout  Created\n----------------------------------------"
     },
     {
-      "rank": 24,
+      "rank": 25,
       "tool": "20260517_dataflow",
       "score": 7.7,
       "raters": 1,
@@ -429,7 +446,7 @@
       "demo_preview": "Export Records\n+----+--------+--------------------+------------------------------------------+--------------------------"
     },
     {
-      "rank": 25,
+      "rank": 26,
       "tool": "20260517_systemstate",
       "score": 7.7,
       "raters": 1,
@@ -446,7 +463,7 @@
       "demo_preview": "System State Demo:\nPhase                | Value     \n--------------------------------\nplan_written         | True      \n"
     },
     {
-      "rank": 26,
+      "rank": 27,
       "tool": "20260518_invoice_chaser_cli",
       "score": 7.7,
       "raters": 1,
@@ -463,7 +480,7 @@
       "demo_preview": "Demo invoices created:\nID    Client               Amount     Issue Date   Due Date     Status     Notes               \n-"
     },
     {
-      "rank": 27,
+      "rank": 28,
       "tool": "20260519_agentos",
       "score": 7.7,
       "raters": 1,
@@ -480,7 +497,7 @@
       "demo_preview": "==================================================\nAGENTOS STATUS DASHBOARD\n============================================"
     },
     {
-      "rank": 28,
+      "rank": 29,
       "tool": "20260519_promptversion",
       "score": 7.7,
       "raters": 1,
@@ -497,7 +514,7 @@
       "demo_preview": "Running offline demo for promptversion tool...\nDatabase initialized at: /home/tedsa/.jarvis/promptversion.db\n\n--- Listin"
     },
     {
-      "rank": 29,
+      "rank": 30,
       "tool": "20260520_contextcraft",
       "score": 7.7,
       "raters": 1,
@@ -514,7 +531,7 @@
       "demo_preview": "Path                                Name                 Type       Line  Snippet                       \n---------------"
     },
     {
-      "rank": 30,
+      "rank": 31,
       "tool": "20260520_paylink",
       "score": 7.7,
       "raters": 1,
@@ -531,7 +548,7 @@
       "demo_preview": "ID    Amount     Description          Status     Created             \n1     100.00     Freelance Project    pending    2"
     },
     {
-      "rank": 31,
+      "rank": 32,
       "tool": "20260426_contextinject",
       "score": 7.3,
       "raters": 1,
@@ -548,7 +565,7 @@
       "demo_preview": "JARVIS SYSTEM KNOWLEDGE \u2014 demo\nHealth: 84%  |  Builds: 28  |  Avg score: 7/10\nBest for code: mistral (1774ms)\nBest for r"
     },
     {
-      "rank": 32,
+      "rank": 33,
       "tool": "20260426_promptbench",
       "score": 7.3,
       "raters": 1,
@@ -565,7 +582,7 @@
       "demo_preview": "PROMPTBENCH DEMO\nModel                 Score     Time Preview\n----------------------------------------------------------"
     },
     {
-      "rank": 33,
+      "rank": 34,
       "tool": "20260429_followup",
       "score": 7.3,
       "raters": 1,
@@ -582,7 +599,7 @@
       "demo_preview": "=== FOLLOWUP DEMO ===\nContact              Company         Last Note                           Due\n---------------------"
     },
     {
-      "rank": 34,
+      "rank": 35,
       "tool": "20260430_pricepilot",
       "score": 7.3,
       "raters": 1,
@@ -599,7 +616,7 @@
       "demo_preview": "=== PricePilot Demo ===\nProduct         Site          Price  Time\n--------------------------------------------------\nwid"
     },
     {
-      "rank": 35,
+      "rank": 36,
       "tool": "20260501_chasepy",
       "score": 7.3,
       "raters": 1,
@@ -616,7 +633,7 @@
       "demo_preview": "\u2705 Demo data loaded!\n\n\n\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557\n\u2551       CHASEPY \u2014 DASHBOARD            \u2551\n\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550"
     },
     {
-      "rank": 36,
+      "rank": 37,
       "tool": "20260507_agenteconomy",
       "score": 7.3,
       "raters": 1,
@@ -633,7 +650,7 @@
       "demo_preview": "=== AgentEconomy Demo ===\n\nAgent           Balance\n-------------------------\nAgent-A             800 credits\nAgent-B    "
     },
     {
-      "rank": 37,
+      "rank": 38,
       "tool": "20260507_agentlog",
       "score": 7.3,
       "raters": 1,
@@ -648,23 +665,6 @@
       "lines": 101,
       "tags": "cli,jarvis-built",
       "demo_preview": "AgentLog Demo \u2014 Structured Agent Run History\n=================================================================\nID   Agen"
-    },
-    {
-      "rank": 38,
-      "tool": "20260507_contextcraft",
-      "score": 7.3,
-      "raters": 1,
-      "breakdown": {
-        "A": 6.0,
-        "B": 5.0,
-        "C": 5.0,
-        "D": 1.0,
-        "E": 4.0,
-        "F": 1.0
-      },
-      "lines": 64,
-      "tags": "cli,jarvis-built",
-      "demo_preview": "ContextCraft \u2014 Codebase Index Demo\n======================================================================\nID   File     "
     },
     {
       "rank": 39,
