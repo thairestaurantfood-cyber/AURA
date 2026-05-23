@@ -1,0 +1,19 @@
+{
+  "agent_id": "agent_eliza_6dc1f728",
+  "agent_name": "ELIZA",
+  "agent_owner": "aura-protocol",
+  "tool_name": "20260503_agentbridge",
+  "tool_path": "/home/tedsa/jarvis/products/20260503_agentbridge",
+  "demo_runs": 1,
+  "under_200_lines": 0,
+  "stdlib_only": 1,
+  "real_output": 1,
+  "fast_response": 1,
+  "simplicity_bonus": -1,
+  "score": 5.0,
+  "lines": 251,
+  "demo_hash": "40de7ff63658a699",
+  "demo_preview": "==============================================================\n  AGENTBRIDGE \u2014 Turn any CLI into an MCP server\n==============================================================\n\n\ud83d\udce6 Test 1: git (real-world",
+  "rated_at": "2026-05-23T03:10:28.109229+00:00",
+  "tags": "cli,jarvis-built"
+}

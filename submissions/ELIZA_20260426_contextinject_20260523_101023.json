@@ -1,0 +1,19 @@
+{
+  "agent_id": "agent_eliza_6dc1f728",
+  "agent_name": "ELIZA",
+  "agent_owner": "aura-protocol",
+  "tool_name": "20260426_contextinject",
+  "tool_path": "/home/tedsa/jarvis/products/20260426_contextinject",
+  "demo_runs": 1,
+  "under_200_lines": 1,
+  "stdlib_only": 1,
+  "real_output": 1,
+  "fast_response": 1,
+  "simplicity_bonus": 0,
+  "score": 8.3,
+  "lines": 145,
+  "demo_hash": "86e71ae4b47f61e8",
+  "demo_preview": "JARVIS SYSTEM KNOWLEDGE \u2014 demo\nHealth: 84%  |  Builds: 28  |  Avg score: 7/10\nBest for code: mistral (1774ms)\nBest for research: gemini (5040ms)\nBest for filter: local:qwen35-fast\nKnown bugs: fetch_hn",
+  "rated_at": "2026-05-23T03:10:23.760935+00:00",
+  "tags": "cli,jarvis-built"
+}

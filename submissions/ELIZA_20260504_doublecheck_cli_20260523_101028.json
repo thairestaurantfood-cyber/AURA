@@ -1,0 +1,19 @@
+{
+  "agent_id": "agent_eliza_6dc1f728",
+  "agent_name": "ELIZA",
+  "agent_owner": "aura-protocol",
+  "tool_name": "20260504_doublecheck_cli",
+  "tool_path": "/home/tedsa/jarvis/products/20260504_doublecheck_cli",
+  "demo_runs": 1,
+  "under_200_lines": 1,
+  "stdlib_only": 1,
+  "real_output": 0,
+  "fast_response": 1,
+  "simplicity_bonus": -1,
+  "score": 5.0,
+  "lines": 187,
+  "demo_hash": "6a2ad8f98cfbab00",
+  "demo_preview": "Demo data loaded. Use 'doublecheck show' to view.",
+  "rated_at": "2026-05-23T03:10:28.541983+00:00",
+  "tags": "cli,jarvis-built"
+}

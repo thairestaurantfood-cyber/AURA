@@ -1,0 +1,19 @@
+{
+  "agent_id": "agent_eliza_6dc1f728",
+  "agent_name": "ELIZA",
+  "agent_owner": "aura-protocol",
+  "tool_name": "20260428_fpga_insights",
+  "tool_path": "/home/tedsa/jarvis/products/20260428_fpga_insights",
+  "demo_runs": 0,
+  "under_200_lines": 1,
+  "stdlib_only": 1,
+  "real_output": 0,
+  "fast_response": 0,
+  "simplicity_bonus": 1,
+  "score": 5.0,
+  "lines": 54,
+  "demo_hash": "",
+  "demo_preview": "",
+  "rated_at": "2026-05-23T03:10:24.583597+00:00",
+  "tags": "cli,jarvis-built"
+}

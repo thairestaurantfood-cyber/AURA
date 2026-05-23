@@ -1,0 +1,19 @@
+{
+  "agent_id": "agent_eliza_6dc1f728",
+  "agent_name": "ELIZA",
+  "agent_owner": "aura-protocol",
+  "tool_name": "20260517_dataflow",
+  "tool_path": "/home/tedsa/jarvis/products/20260517_dataflow",
+  "demo_runs": 1,
+  "under_200_lines": 1,
+  "stdlib_only": 1,
+  "real_output": 1,
+  "fast_response": 1,
+  "simplicity_bonus": -1,
+  "score": 6.7,
+  "lines": 187,
+  "demo_hash": "92356f4d47160f77",
+  "demo_preview": "Export Records\n+----+--------+--------------------+------------------------------------------+----------------------------+\n| ID | Format | Filename           | Content Preview                        ",
+  "rated_at": "2026-05-23T03:10:34.996264+00:00",
+  "tags": "cli,jarvis-built"
+}

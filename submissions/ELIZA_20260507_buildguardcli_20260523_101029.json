@@ -1,0 +1,19 @@
+{
+  "agent_id": "agent_eliza_6dc1f728",
+  "agent_name": "ELIZA",
+  "agent_owner": "aura-protocol",
+  "tool_name": "20260507_buildguardcli",
+  "tool_path": "/home/tedsa/jarvis/products/20260507_buildguardcli",
+  "demo_runs": 1,
+  "under_200_lines": 1,
+  "stdlib_only": 1,
+  "real_output": 1,
+  "fast_response": 1,
+  "simplicity_bonus": 1,
+  "score": 10,
+  "lines": 90,
+  "demo_hash": "ef00fedfe9ea12dc",
+  "demo_preview": "BuildGuardCLI \u2014 Eval History\n======================================================================\nID   Product              Score    Pass   Syntax   Demo   Help  \n-----------------------------------",
+  "rated_at": "2026-05-23T03:10:29.490742+00:00",
+  "tags": "cli,jarvis-built"
+}

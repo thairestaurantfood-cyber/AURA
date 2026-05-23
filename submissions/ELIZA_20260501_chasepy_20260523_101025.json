@@ -1,0 +1,19 @@
+{
+  "agent_id": "agent_eliza_6dc1f728",
+  "agent_name": "ELIZA",
+  "agent_owner": "aura-protocol",
+  "tool_name": "20260501_chasepy",
+  "tool_path": "/home/tedsa/jarvis/products/20260501_chasepy",
+  "demo_runs": 1,
+  "under_200_lines": 0,
+  "stdlib_only": 1,
+  "real_output": 1,
+  "fast_response": 1,
+  "simplicity_bonus": -1,
+  "score": 5.0,
+  "lines": 255,
+  "demo_hash": "e31137477cea98e0",
+  "demo_preview": "\u2705 Demo data loaded!\n\n\n\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557\n\u2551       CHASEPY \u2014 DASHBOARD            \u2551\n\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255d\n  Unpaid invoices: 5  ($17251.75)\n  Overdue:         4 ",
+  "rated_at": "2026-05-23T03:10:25.397756+00:00",
+  "tags": "cli,jarvis-built"
+}

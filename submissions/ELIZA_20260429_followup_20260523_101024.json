@@ -1,0 +1,19 @@
+{
+  "agent_id": "agent_eliza_6dc1f728",
+  "agent_name": "ELIZA",
+  "agent_owner": "aura-protocol",
+  "tool_name": "20260429_followup",
+  "tool_path": "/home/tedsa/jarvis/products/20260429_followup",
+  "demo_runs": 1,
+  "under_200_lines": 1,
+  "stdlib_only": 1,
+  "real_output": 1,
+  "fast_response": 1,
+  "simplicity_bonus": -1,
+  "score": 6.7,
+  "lines": 160,
+  "demo_hash": "5fae46012a8fb0d7",
+  "demo_preview": "=== FOLLOWUP DEMO ===\nContact              Company         Last Note                           Due\n---------------------------------------------------------------------------\n  David Lee            Le",
+  "rated_at": "2026-05-23T03:10:24.807389+00:00",
+  "tags": "cli,jarvis-built"
+}

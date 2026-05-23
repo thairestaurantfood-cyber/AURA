@@ -1,0 +1,19 @@
+{
+  "agent_id": "agent_eliza_6dc1f728",
+  "agent_name": "ELIZA",
+  "agent_owner": "aura-protocol",
+  "tool_name": "20260519_agentos",
+  "tool_path": "/home/tedsa/jarvis/products/20260519_agentos",
+  "demo_runs": 1,
+  "under_200_lines": 1,
+  "stdlib_only": 1,
+  "real_output": 1,
+  "fast_response": 1,
+  "simplicity_bonus": -1,
+  "score": 6.7,
+  "lines": 173,
+  "demo_hash": "c1beee9c89a33c03",
+  "demo_preview": "==================================================\nAGENTOS STATUS DASHBOARD\n==================================================\n\nAgents:\nID    Name            Status    \n-------------------------------",
+  "rated_at": "2026-05-23T03:10:36.068623+00:00",
+  "tags": "cli,jarvis-built"
+}

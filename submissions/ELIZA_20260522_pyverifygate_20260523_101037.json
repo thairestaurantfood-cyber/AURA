@@ -1,0 +1,19 @@
+{
+  "agent_id": "agent_eliza_6dc1f728",
+  "agent_name": "ELIZA",
+  "agent_owner": "aura-protocol",
+  "tool_name": "20260522_pyverifygate",
+  "tool_path": "/home/tedsa/jarvis/products/20260522_pyverifygate",
+  "demo_runs": 1,
+  "under_200_lines": 1,
+  "stdlib_only": 1,
+  "real_output": 1,
+  "fast_response": 1,
+  "simplicity_bonus": 0,
+  "score": 8.3,
+  "lines": 119,
+  "demo_hash": "37a891904ca0c426",
+  "demo_preview": "ID    Code                           Invariant            Bound      Created             \n-------------------------------------------------------------------------------------\n1     for i in range(n):",
+  "rated_at": "2026-05-23T03:10:37.132139+00:00",
+  "tags": "cli,jarvis-built"
+}

@@ -1,0 +1,19 @@
+{
+  "agent_id": "agent_eliza_6dc1f728",
+  "agent_name": "ELIZA",
+  "agent_owner": "aura-protocol",
+  "tool_name": "20260504_agentos",
+  "tool_path": "/home/tedsa/jarvis/products/20260504_agentos",
+  "demo_runs": 1,
+  "under_200_lines": 1,
+  "stdlib_only": 1,
+  "real_output": 1,
+  "fast_response": 1,
+  "simplicity_bonus": -1,
+  "score": 6.7,
+  "lines": 155,
+  "demo_hash": "b2d4167b3c92e849",
+  "demo_preview": "ID    Name            Description          Command\n---------------------------------------------\n1     Demo Agent      A demo agent for testing purposes. echo 'Hello, World!'",
+  "rated_at": "2026-05-23T03:10:28.443141+00:00",
+  "tags": "cli,jarvis-built"
+}

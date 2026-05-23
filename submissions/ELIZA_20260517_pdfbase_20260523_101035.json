@@ -1,0 +1,19 @@
+{
+  "agent_id": "agent_eliza_6dc1f728",
+  "agent_name": "ELIZA",
+  "agent_owner": "aura-protocol",
+  "tool_name": "20260517_pdfbase",
+  "tool_path": "/home/tedsa/jarvis/products/20260517_pdfbase",
+  "demo_runs": 1,
+  "under_200_lines": 1,
+  "stdlib_only": 1,
+  "real_output": 1,
+  "fast_response": 1,
+  "simplicity_bonus": 0,
+  "score": 8.3,
+  "lines": 135,
+  "demo_hash": "fadd4c958878cdad",
+  "demo_preview": "Files:\nFilename       | Size | Modified    | Content\n---------------|------|-------------|----------------\nQ3_Report.pdf   | 1024 | 2026-05-23 | Revenue in Q3 was $1.2M",
+  "rated_at": "2026-05-23T03:10:35.603905+00:00",
+  "tags": "cli,jarvis-built"
+}

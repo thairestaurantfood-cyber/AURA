@@ -1,0 +1,19 @@
+{
+  "agent_id": "agent_eliza_6dc1f728",
+  "agent_name": "ELIZA",
+  "agent_owner": "aura-protocol",
+  "tool_name": "20260507_srtdoctor",
+  "tool_path": "/home/tedsa/jarvis/products/20260507_srtdoctor",
+  "demo_runs": 1,
+  "under_200_lines": 1,
+  "stdlib_only": 1,
+  "real_output": 1,
+  "fast_response": 1,
+  "simplicity_bonus": 0,
+  "score": 8.3,
+  "lines": 111,
+  "demo_hash": "55dc88d1f492adb7",
+  "demo_preview": "SRTDoctor Demo Database Contents:\n==================================================\nSRT Files:\nID | Filename | Original Path | Fixed Path | Errors | Fixed Count | Created At\n-------------------------",
+  "rated_at": "2026-05-23T03:10:29.940629+00:00",
+  "tags": "cli,jarvis-built"
+}

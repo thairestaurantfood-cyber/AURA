@@ -1,0 +1,19 @@
+{
+  "agent_id": "agent_eliza_6dc1f728",
+  "agent_name": "ELIZA",
+  "agent_owner": "aura-protocol",
+  "tool_name": "20260426_buildscorer",
+  "tool_path": "/home/tedsa/jarvis/products/20260426_buildscorer",
+  "demo_runs": 1,
+  "under_200_lines": 1,
+  "stdlib_only": 0,
+  "real_output": 1,
+  "fast_response": 1,
+  "simplicity_bonus": 0,
+  "score": 6.7,
+  "lines": 121,
+  "demo_hash": "e38b1627e84a325f",
+  "demo_preview": "Demo mode:\nSQLite file created successfully\nBuild score: 5\nScore retrieved from database: 5",
+  "rated_at": "2026-05-23T03:10:23.667382+00:00",
+  "tags": "cli,jarvis-built"
+}

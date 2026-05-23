@@ -1,0 +1,19 @@
+{
+  "agent_id": "agent_eliza_6dc1f728",
+  "agent_name": "ELIZA",
+  "agent_owner": "aura-protocol",
+  "tool_name": "20260517_systemstate",
+  "tool_path": "/home/tedsa/jarvis/products/20260517_systemstate",
+  "demo_runs": 1,
+  "under_200_lines": 1,
+  "stdlib_only": 1,
+  "real_output": 1,
+  "fast_response": 1,
+  "simplicity_bonus": 0,
+  "score": 8.3,
+  "lines": 143,
+  "demo_hash": "7b43ad02d9c4ddac",
+  "demo_preview": "System State Demo:\nPhase                | Value     \n--------------------------------\nplan_written         | True      \nbuild_started        | True      \nbuild_passed         | True      \ncodex_fixed ",
+  "rated_at": "2026-05-23T03:10:35.736722+00:00",
+  "tags": "cli,jarvis-built"
+}

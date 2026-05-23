@@ -1,0 +1,19 @@
+{
+  "agent_id": "agent_eliza_6dc1f728",
+  "agent_name": "ELIZA",
+  "agent_owner": "aura-protocol",
+  "tool_name": "20260426_invoicer",
+  "tool_path": "/home/tedsa/jarvis/products/20260426_invoicer",
+  "demo_runs": 0,
+  "under_200_lines": 1,
+  "stdlib_only": 0,
+  "real_output": 0,
+  "fast_response": 0,
+  "simplicity_bonus": -1,
+  "score": 0,
+  "lines": 157,
+  "demo_hash": "",
+  "demo_preview": "",
+  "rated_at": "2026-05-23T03:10:23.934764+00:00",
+  "tags": "cli,jarvis-built"
+}

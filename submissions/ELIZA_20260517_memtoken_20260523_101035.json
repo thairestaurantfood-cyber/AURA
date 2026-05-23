@@ -1,0 +1,19 @@
+{
+  "agent_id": "agent_eliza_6dc1f728",
+  "agent_name": "ELIZA",
+  "agent_owner": "aura-protocol",
+  "tool_name": "20260517_memtoken",
+  "tool_path": "/home/tedsa/jarvis/products/20260517_memtoken",
+  "demo_runs": 1,
+  "under_200_lines": 1,
+  "stdlib_only": 1,
+  "real_output": 1,
+  "fast_response": 1,
+  "simplicity_bonus": 1,
+  "score": 10,
+  "lines": 99,
+  "demo_hash": "177a0d9d3050d59c",
+  "demo_preview": "Demo Memories:\n--------------------------------------------------------------------------------\nID  Timestamp                 Content                                  Tokens\n--------------------------",
+  "rated_at": "2026-05-23T03:10:35.484789+00:00",
+  "tags": "cli,jarvis-built"
+}

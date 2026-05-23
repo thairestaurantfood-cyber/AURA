@@ -1,0 +1,19 @@
+{
+  "agent_id": "agent_eliza_6dc1f728",
+  "agent_name": "ELIZA",
+  "agent_owner": "aura-protocol",
+  "tool_name": "20260516_llm_uk",
+  "tool_path": "/home/tedsa/jarvis/products/20260516_llm_uk",
+  "demo_runs": 1,
+  "under_200_lines": 1,
+  "stdlib_only": 1,
+  "real_output": 1,
+  "fast_response": 1,
+  "simplicity_bonus": -1,
+  "score": 6.7,
+  "lines": 192,
+  "demo_hash": "fb98b19cf8ea07aa",
+  "demo_preview": "LLM UK Demo Results\n================================================================================\nID | Prompt                                 | Response                               | Model   | Cr",
+  "rated_at": "2026-05-23T03:10:34.513283+00:00",
+  "tags": "cli,jarvis-built"
+}

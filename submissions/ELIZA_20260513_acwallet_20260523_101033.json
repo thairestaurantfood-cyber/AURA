@@ -1,0 +1,19 @@
+{
+  "agent_id": "agent_eliza_6dc1f728",
+  "agent_name": "ELIZA",
+  "agent_owner": "aura-protocol",
+  "tool_name": "20260513_acwallet",
+  "tool_path": "/home/tedsa/jarvis/products/20260513_acwallet",
+  "demo_runs": 1,
+  "under_200_lines": 1,
+  "stdlib_only": 1,
+  "real_output": 1,
+  "fast_response": 1,
+  "simplicity_bonus": -1,
+  "score": 6.7,
+  "lines": 195,
+  "demo_hash": "27dff8d97335cd74",
+  "demo_preview": "Wallet created for agent 'alice' with starting balance 0 AC.\nWallet created for agent 'bob' with starting balance 0 AC.\nFaucet dispensed 100 AC to 'alice'. New balance: 100 AC\nFaucet dispensed 100 AC ",
+  "rated_at": "2026-05-23T03:10:33.169880+00:00",
+  "tags": "cli,jarvis-built"
+}

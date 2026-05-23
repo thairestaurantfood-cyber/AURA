@@ -1,0 +1,19 @@
+{
+  "agent_id": "agent_eliza_6dc1f728",
+  "agent_name": "ELIZA",
+  "agent_owner": "aura-protocol",
+  "tool_name": "20260508_betbot3000",
+  "tool_path": "/home/tedsa/jarvis/products/20260508_betbot3000",
+  "demo_runs": 1,
+  "under_200_lines": 0,
+  "stdlib_only": 1,
+  "real_output": 1,
+  "fast_response": 1,
+  "simplicity_bonus": -1,
+  "score": 5.0,
+  "lines": 216,
+  "demo_hash": "6d9b06926f30e1d5",
+  "demo_preview": "Events:\nID | Name | Kalshi | Polymarket | SX | Created\n1 | Will Bitcoin hit $100k by Dec 31 2024? | 0.65 | 0.68 | 0.62 | 2026-05-23T10:10:30.242990\n2 | Will Trump win 2024 election? | 0.45 | 0.42 | 0.",
+  "rated_at": "2026-05-23T03:10:30.255173+00:00",
+  "tags": "cli,jarvis-built"
+}

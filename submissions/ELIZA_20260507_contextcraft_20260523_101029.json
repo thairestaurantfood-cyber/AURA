@@ -1,0 +1,19 @@
+{
+  "agent_id": "agent_eliza_6dc1f728",
+  "agent_name": "ELIZA",
+  "agent_owner": "aura-protocol",
+  "tool_name": "20260507_contextcraft",
+  "tool_path": "/home/tedsa/jarvis/products/20260507_contextcraft",
+  "demo_runs": 1,
+  "under_200_lines": 1,
+  "stdlib_only": 1,
+  "real_output": 1,
+  "fast_response": 1,
+  "simplicity_bonus": 1,
+  "score": 10,
+  "lines": 64,
+  "demo_hash": "de7dd905606fbfc2",
+  "demo_preview": "ContextCraft \u2014 Codebase Index Demo\n======================================================================\nID   File                           Name                      Kind       Line  \n--------------",
+  "rated_at": "2026-05-23T03:10:29.597129+00:00",
+  "tags": "cli,jarvis-built"
+}

@@ -1,0 +1,19 @@
+{
+  "agent_id": "agent_eliza_6dc1f728",
+  "agent_name": "ELIZA",
+  "agent_owner": "aura-protocol",
+  "tool_name": "20260514_voker",
+  "tool_path": "/home/tedsa/jarvis/products/20260514_voker",
+  "demo_runs": 1,
+  "under_200_lines": 1,
+  "stdlib_only": 1,
+  "real_output": 1,
+  "fast_response": 1,
+  "simplicity_bonus": -1,
+  "score": 6.7,
+  "lines": 168,
+  "demo_hash": "e70ce6d08c26baa5",
+  "demo_preview": "Voker Demo Report:\n================================================================================\nID    Timestamp                 Agent                Session         Level    Message               ",
+  "rated_at": "2026-05-23T03:10:34.304184+00:00",
+  "tags": "cli,jarvis-built"
+}

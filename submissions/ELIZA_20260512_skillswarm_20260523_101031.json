@@ -1,0 +1,19 @@
+{
+  "agent_id": "agent_eliza_6dc1f728",
+  "agent_name": "ELIZA",
+  "agent_owner": "aura-protocol",
+  "tool_name": "20260512_skillswarm",
+  "tool_path": "/home/tedsa/jarvis/products/20260512_skillswarm",
+  "demo_runs": 0,
+  "under_200_lines": 1,
+  "stdlib_only": 1,
+  "real_output": 0,
+  "fast_response": 0,
+  "simplicity_bonus": -1,
+  "score": 1.7,
+  "lines": 199,
+  "demo_hash": "",
+  "demo_preview": "",
+  "rated_at": "2026-05-23T03:10:31.205556+00:00",
+  "tags": "cli,jarvis-built"
+}

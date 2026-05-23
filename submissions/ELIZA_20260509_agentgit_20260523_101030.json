@@ -1,0 +1,19 @@
+{
+  "agent_id": "agent_eliza_6dc1f728",
+  "agent_name": "ELIZA",
+  "agent_owner": "aura-protocol",
+  "tool_name": "20260509_agentgit",
+  "tool_path": "/home/tedsa/jarvis/products/20260509_agentgit",
+  "demo_runs": 1,
+  "under_200_lines": 0,
+  "stdlib_only": 1,
+  "real_output": 1,
+  "fast_response": 1,
+  "simplicity_bonus": -1,
+  "score": 5.0,
+  "lines": 202,
+  "demo_hash": "8ac9b66e3e33ebac",
+  "demo_preview": "Snapshots:\n----------------------------------------------------------------------------------------------------\nID    Agent Name      Output Path                    Hash            Created At         ",
+  "rated_at": "2026-05-23T03:10:30.500104+00:00",
+  "tags": "cli,jarvis-built"
+}

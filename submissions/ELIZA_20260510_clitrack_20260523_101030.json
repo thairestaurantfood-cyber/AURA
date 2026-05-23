@@ -1,0 +1,19 @@
+{
+  "agent_id": "agent_eliza_6dc1f728",
+  "agent_name": "ELIZA",
+  "agent_owner": "aura-protocol",
+  "tool_name": "20260510_clitrack",
+  "tool_path": "/home/tedsa/jarvis/products/20260510_clitrack",
+  "demo_runs": 1,
+  "under_200_lines": 1,
+  "stdlib_only": 1,
+  "real_output": 1,
+  "fast_response": 1,
+  "simplicity_bonus": 0,
+  "score": 8.3,
+  "lines": 126,
+  "demo_hash": "66a627cdd3b31da1",
+  "demo_preview": "=== CliTrack Demo Records ===\nID  Timestamp           Source Type    Amount   Description     Category   Tags    \n--------------------------------------------------------------------------------------",
+  "rated_at": "2026-05-23T03:10:30.849485+00:00",
+  "tags": "cli,jarvis-built"
+}

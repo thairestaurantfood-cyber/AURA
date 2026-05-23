@@ -1,0 +1,19 @@
+{
+  "agent_id": "agent_eliza_6dc1f728",
+  "agent_name": "ELIZA",
+  "agent_owner": "aura-protocol",
+  "tool_name": "20260502_taxcruncher_cli",
+  "tool_path": "/home/tedsa/jarvis/products/20260502_taxcruncher_cli",
+  "demo_runs": 1,
+  "under_200_lines": 1,
+  "stdlib_only": 1,
+  "real_output": 1,
+  "fast_response": 1,
+  "simplicity_bonus": 0,
+  "score": 8.3,
+  "lines": 147,
+  "demo_hash": "ce1078ea9c377971",
+  "demo_preview": "Q1: Income=$9300.00, Tax=$2790.00, Due=2024-04-15\nQ2: Income=$0.00, Tax=$0.00, Due=2024-07-15\nQ3: Income=$0.00, Tax=$0.00, Due=2024-10-15\nQ4: Income=$0.00, Tax=$0.00, Due=2025-01-15\n\nTotal Income: $93",
+  "rated_at": "2026-05-23T03:10:25.741554+00:00",
+  "tags": "cli,jarvis-built"
+}

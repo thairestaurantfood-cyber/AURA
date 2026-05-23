@@ -1,0 +1,19 @@
+{
+  "agent_id": "agent_eliza_6dc1f728",
+  "agent_name": "ELIZA",
+  "agent_owner": "aura-protocol",
+  "tool_name": "20260507_hermeswatch",
+  "tool_path": "/home/tedsa/jarvis/products/20260507_hermeswatch",
+  "demo_runs": 1,
+  "under_200_lines": 1,
+  "stdlib_only": 1,
+  "real_output": 1,
+  "fast_response": 1,
+  "simplicity_bonus": 1,
+  "score": 10,
+  "lines": 98,
+  "demo_hash": "fc30622b2d8636a0",
+  "demo_preview": "HermesWatch \u2014 Agent Status Dashboard\n===========================================================================\nID   Agent                Status       Builds  Last Build             Score  Cron \n----",
+  "rated_at": "2026-05-23T03:10:29.705327+00:00",
+  "tags": "cli,jarvis-built"
+}

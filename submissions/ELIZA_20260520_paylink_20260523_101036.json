@@ -1,0 +1,19 @@
+{
+  "agent_id": "agent_eliza_6dc1f728",
+  "agent_name": "ELIZA",
+  "agent_owner": "aura-protocol",
+  "tool_name": "20260520_paylink",
+  "tool_path": "/home/tedsa/jarvis/products/20260520_paylink",
+  "demo_runs": 1,
+  "under_200_lines": 1,
+  "stdlib_only": 1,
+  "real_output": 1,
+  "fast_response": 1,
+  "simplicity_bonus": -1,
+  "score": 6.7,
+  "lines": 153,
+  "demo_hash": "cad44bd0e5085b44",
+  "demo_preview": "ID    Amount     Description          Status     Created             \n1     100.00     Freelance Project    pending    2026-05-23T10:10:36.601733\n2     250.50     Web Development      paid       2026-",
+  "rated_at": "2026-05-23T03:10:36.613564+00:00",
+  "tags": "cli,jarvis-built"
+}

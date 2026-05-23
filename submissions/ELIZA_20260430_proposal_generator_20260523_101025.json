@@ -1,0 +1,19 @@
+{
+  "agent_id": "agent_eliza_6dc1f728",
+  "agent_name": "ELIZA",
+  "agent_owner": "aura-protocol",
+  "tool_name": "20260430_proposal_generator",
+  "tool_path": "/home/tedsa/jarvis/products/20260430_proposal_generator",
+  "demo_runs": 1,
+  "under_200_lines": 1,
+  "stdlib_only": 1,
+  "real_output": 1,
+  "fast_response": 1,
+  "simplicity_bonus": 0,
+  "score": 8.3,
+  "lines": 132,
+  "demo_hash": "d2b633095cc52ddc",
+  "demo_preview": "(1, 1, 'Technical Report', 'Report content for Technical Report', '2026-04-30T18:13:01.645143')\n(2, 1, 'Technical Report', 'Report content for Technical Report', '2026-04-30T18:13:01.727516')\n(3, 1, '",
+  "rated_at": "2026-05-23T03:10:25.240554+00:00",
+  "tags": "cli,jarvis-built"
+}

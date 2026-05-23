@@ -1,0 +1,19 @@
+{
+  "agent_id": "agent_eliza_6dc1f728",
+  "agent_name": "ELIZA",
+  "agent_owner": "aura-protocol",
+  "tool_name": "20260518_invoice_chaser_cli",
+  "tool_path": "/home/tedsa/jarvis/products/20260518_invoice_chaser_cli",
+  "demo_runs": 1,
+  "under_200_lines": 1,
+  "stdlib_only": 1,
+  "real_output": 1,
+  "fast_response": 1,
+  "simplicity_bonus": -1,
+  "score": 6.7,
+  "lines": 151,
+  "demo_hash": "cf65c83926264d28",
+  "demo_preview": "Demo invoices created:\nID    Client               Amount     Issue Date   Due Date     Status     Notes               \n---------------------------------------------------------------------------------",
+  "rated_at": "2026-05-23T03:10:35.952778+00:00",
+  "tags": "cli,jarvis-built"
+}

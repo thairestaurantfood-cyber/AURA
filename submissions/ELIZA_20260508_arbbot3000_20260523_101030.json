@@ -1,0 +1,19 @@
+{
+  "agent_id": "agent_eliza_6dc1f728",
+  "agent_name": "ELIZA",
+  "agent_owner": "aura-protocol",
+  "tool_name": "20260508_arbbot3000",
+  "tool_path": "/home/tedsa/jarvis/products/20260508_arbbot3000",
+  "demo_runs": 1,
+  "under_200_lines": 1,
+  "stdlib_only": 1,
+  "real_output": 1,
+  "fast_response": 1,
+  "simplicity_bonus": 0,
+  "score": 8.3,
+  "lines": 115,
+  "demo_hash": "4b09fc223eb6ee79",
+  "demo_preview": "Event ID | Title             | Market     | Outcome | Price\n-----------------------------------------------------------\nevent_1  | Super Bowl Winner | Kalshi     | Chiefs  | 0.65 \nevent_1  | Super Bow",
+  "rated_at": "2026-05-23T03:10:30.054474+00:00",
+  "tags": "cli,jarvis-built"
+}

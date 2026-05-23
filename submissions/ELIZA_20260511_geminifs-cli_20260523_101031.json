@@ -1,0 +1,19 @@
+{
+  "agent_id": "agent_eliza_6dc1f728",
+  "agent_name": "ELIZA",
+  "agent_owner": "aura-protocol",
+  "tool_name": "20260511_geminifs-cli",
+  "tool_path": "/home/tedsa/jarvis/products/20260511_geminifs-cli",
+  "demo_runs": 1,
+  "under_200_lines": 1,
+  "stdlib_only": 1,
+  "real_output": 1,
+  "fast_response": 1,
+  "simplicity_bonus": -1,
+  "score": 6.7,
+  "lines": 154,
+  "demo_hash": "bc529c73a6a2d1a3",
+  "demo_preview": "DEMO FILES INDEXED:\n('/home/tedsa/code/script.py', 'script.py', '.py', 256, 1625097604)\n('/home/tedsa/Pictures/photo.jpg', 'photo.jpg', '.jpg', 4096, 1625097603)\n('/home/tedsa/Downloads/report.pdf', '",
+  "rated_at": "2026-05-23T03:10:31.112025+00:00",
+  "tags": "cli,jarvis-built"
+}

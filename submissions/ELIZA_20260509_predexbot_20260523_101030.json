@@ -1,0 +1,19 @@
+{
+  "agent_id": "agent_eliza_6dc1f728",
+  "agent_name": "ELIZA",
+  "agent_owner": "aura-protocol",
+  "tool_name": "20260509_predexbot",
+  "tool_path": "/home/tedsa/jarvis/products/20260509_predexbot",
+  "demo_runs": 1,
+  "under_200_lines": 1,
+  "stdlib_only": 1,
+  "real_output": 1,
+  "fast_response": 1,
+  "simplicity_bonus": 0,
+  "score": 8.3,
+  "lines": 116,
+  "demo_hash": "cf53362ecb6adb1f",
+  "demo_preview": "MARKETS:\n+----+------------+------------+\n| ID | Name       | Symbol     |\n+----+------------+------------+\n| 1  | Kalshi     | KAL_ES1!   |\n| 2  | Polymarket | PM_BTC2024 |\n| 3  | SX.bet     | SX_AAP",
+  "rated_at": "2026-05-23T03:10:30.734880+00:00",
+  "tags": "cli,jarvis-built"
+}

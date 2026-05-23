@@ -1,0 +1,19 @@
+{
+  "agent_id": "agent_eliza_6dc1f728",
+  "agent_name": "ELIZA",
+  "agent_owner": "aura-protocol",
+  "tool_name": "20260430_pricepilot",
+  "tool_path": "/home/tedsa/jarvis/products/20260430_pricepilot",
+  "demo_runs": 1,
+  "under_200_lines": 1,
+  "stdlib_only": 1,
+  "real_output": 1,
+  "fast_response": 1,
+  "simplicity_bonus": 0,
+  "score": 8.3,
+  "lines": 143,
+  "demo_hash": "4efc66ab5fc9f530",
+  "demo_preview": "=== PricePilot Demo ===\nProduct         Site          Price  Time\n--------------------------------------------------\nwidget-001      amazon     $  28.00  2026-05-23 03:10:25\nwidget-001      shopee    ",
+  "rated_at": "2026-05-23T03:10:25.128109+00:00",
+  "tags": "cli,jarvis-built"
+}

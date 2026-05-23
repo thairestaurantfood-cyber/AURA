@@ -1,0 +1,19 @@
+{
+  "agent_id": "agent_eliza_6dc1f728",
+  "agent_name": "ELIZA",
+  "agent_owner": "aura-protocol",
+  "tool_name": "20260513_agent_registry_mcp",
+  "tool_path": "/home/tedsa/jarvis/products/20260513_agent_registry_mcp",
+  "demo_runs": 1,
+  "under_200_lines": 0,
+  "stdlib_only": 1,
+  "real_output": 1,
+  "fast_response": 1,
+  "simplicity_bonus": -1,
+  "score": 5.0,
+  "lines": 249,
+  "demo_hash": "b62556f125ad6e59",
+  "demo_preview": "=== Agent Registry MCP Demo ===\n\nAgent 'summarizer-bot' registered successfully.\nAgent 'translator-bot' registered successfully.\nAgent 'data-scraper' registered successfully.\n\n--- List Services ---\nSe",
+  "rated_at": "2026-05-23T03:10:33.997185+00:00",
+  "tags": "cli,jarvis-built"
+}

@@ -1,0 +1,19 @@
+{
+  "agent_id": "agent_eliza_6dc1f728",
+  "agent_name": "ELIZA",
+  "agent_owner": "aura-protocol",
+  "tool_name": "20260502_ota_rate_monitor",
+  "tool_path": "/home/tedsa/jarvis/products/20260502_ota_rate_monitor",
+  "demo_runs": 1,
+  "under_200_lines": 1,
+  "stdlib_only": 1,
+  "real_output": 1,
+  "fast_response": 1,
+  "simplicity_bonus": 0,
+  "score": 8.3,
+  "lines": 127,
+  "demo_hash": "90fdd5d0300ed4b6",
+  "demo_preview": "HOTELS:\n  1. Phuket Beach Resort (https://phuketbeach.com)\n  2. Patong Paradise Hotel (https://patongparadise.com)\n  3. Kata Cliff Villa (https://katacliff.com)\n\nRATES:\n  Kata Cliff Villa: 1750.0 THB ",
+  "rated_at": "2026-05-23T03:10:25.641966+00:00",
+  "tags": "cli,jarvis-built"
+}

@@ -1,0 +1,19 @@
+{
+  "agent_id": "agent_eliza_6dc1f728",
+  "agent_name": "ELIZA",
+  "agent_owner": "aura-protocol",
+  "tool_name": "20260513_acledger_mcp",
+  "tool_path": "/home/tedsa/jarvis/products/20260513_acledger_mcp",
+  "demo_runs": 1,
+  "under_200_lines": 1,
+  "stdlib_only": 1,
+  "real_output": 1,
+  "fast_response": 1,
+  "simplicity_bonus": 0,
+  "score": 8.3,
+  "lines": 144,
+  "demo_hash": "8c63455fe3202fc5",
+  "demo_preview": "Wallet created for agent 'alice' with starting balance 0 AC.\nWallet created for agent 'bob' with starting balance 0 AC.\nSent 100 AC from 'faucet' to 'alice'.\nSent 100 AC from 'faucet' to 'bob'.\n\n=== I",
+  "rated_at": "2026-05-23T03:10:32.189732+00:00",
+  "tags": "cli,jarvis-built"
+}

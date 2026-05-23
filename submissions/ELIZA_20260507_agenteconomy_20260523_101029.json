@@ -1,0 +1,19 @@
+{
+  "agent_id": "agent_eliza_6dc1f728",
+  "agent_name": "ELIZA",
+  "agent_owner": "aura-protocol",
+  "tool_name": "20260507_agenteconomy",
+  "tool_path": "/home/tedsa/jarvis/products/20260507_agenteconomy",
+  "demo_runs": 1,
+  "under_200_lines": 1,
+  "stdlib_only": 1,
+  "real_output": 1,
+  "fast_response": 1,
+  "simplicity_bonus": 0,
+  "score": 8.3,
+  "lines": 140,
+  "demo_hash": "170f66babe7e0789",
+  "demo_preview": "=== AgentEconomy Demo ===\n\nAgent           Balance\n-------------------------\nAgent-A             800 credits\nAgent-B             700 credits\n\nTX         From       To           Amount Memo\n-----------",
+  "rated_at": "2026-05-23T03:10:29.289191+00:00",
+  "tags": "cli,jarvis-built"
+}
