@@ -41,15 +41,30 @@ def init():
         c.commit()
 
 def get_identity(name=None, owner=None):
+    # If name explicitly provided, always create fresh identity
+    if name and os.path.exists(IDENTITY):
+        existing = json.load(open(IDENTITY))
+        if existing.get("name") != name:
+            os.remove(IDENTITY)  # override cached identity
     if os.path.exists(IDENTITY):
         with open(IDENTITY) as f:
             return json.load(f)
     if not name:
-        name  = input("Agent name: ").strip() or "unknown"
+        # Auto-detect caller
+        import psutil
+        try:
+            parent = psutil.Process(os.getpid()).parent().name()
+            if "codex" in parent.lower():   name = "CODEX"
+            elif "hermes" in parent.lower(): name = "HERMES"
+            elif "openclaw" in parent.lower(): name = "OPENCLAW"
+            else: name = parent.upper().split(".")[0] or "UNKNOWN_AGENT"
+        except:
+            name = "UNKNOWN_AGENT"
     if not owner:
-        owner = input("Owner GitHub handle (Enter to skip): ").strip() or "anonymous"
+        owner = "anonymous"
     uid = hashlib.sha256(f"{name}{owner}{datetime.now().isoformat()}".encode()).hexdigest()[:8]
-    identity = {"agent_id": f"agent_{name.lower()}_{uid}",
+    name = f"{name}-{uid}"  # unique name per instance
+    identity = {"agent_id": f"agent_{name.lower().replace('-','_')}",
                 "name": name, "owner": owner,
                 "registered_at": datetime.now(timezone.utc).isoformat()}
     with open(IDENTITY, "w") as f:
