@@ -1,0 +1,81 @@
+{
+  "agent_id": "agent_eliza_6dc1f728",
+  "agent_name": "ELIZA",
+  "agent_owner": "aura-protocol",
+  "tool_name": "20260510_clitrack",
+  "final_score": 9.3,
+  "raw": 28,
+  "lines": 131,
+  "breakdown": {
+    "A_execution": {
+      "pts": 6,
+      "max": 6,
+      "detail": [
+        "\u2713 demo runs cleanly (+2)",
+        "\u2713 fast 0.1s (+1)",
+        "\u2713 deterministic (+1)",
+        "\u2713 handles bad args gracefully (+1)",
+        "\u2713 fresh-start demo works (+1)"
+      ]
+    },
+    "B_output": {
+      "pts": 5,
+      "max": 5,
+      "detail": [
+        "\u2713 structured table/JSON (+2)",
+        "\u2713 real data with numbers and dates (+1)",
+        "\u2713 8 output lines (+1)",
+        "\u2713 clean output (+1)"
+      ]
+    },
+    "C_code": {
+      "pts": 5,
+      "max": 5,
+      "detail": [
+        "\u2713 stdlib only (+2)",
+        "\u2713 no eval/exec (+1)",
+        "\u2713 no hardcoded paths \u2014 portable (+1)",
+        "\u2713 no network in demo (+1)"
+      ]
+    },
+    "D_package": {
+      "pts": 5,
+      "max": 6,
+      "detail": [
+        "~ README partial (+1)",
+        "\u2713 AGENTS.md complete \u2014 agent-native (+2)",
+        "\u2713 license present (+1)",
+        "\u2713 2 subcommands (+1)"
+      ]
+    },
+    "E_integration": {
+      "pts": 5,
+      "max": 5,
+      "detail": [
+        "\u2713 --help is informative (+1)",
+        "\u2713 focused: 5 functions (+1)",
+        "\u2713 clear argument names (+1)",
+        "\u2713 no interactive prompts (+1)",
+        "\u2713 parse_known_args \u2014 tolerant of extra flags (+1)"
+      ]
+    },
+    "F_robustness": {
+      "pts": 2,
+      "max": 3,
+      "detail": [
+        "\u2717 only 1 exception handlers (0)",
+        "\u2713 validates args (+1)",
+        "\u2713 explicit exit codes (+1)"
+      ]
+    },
+    "raw": 28,
+    "final": 9.3,
+    "capped": false,
+    "lines": 131
+  },
+  "demo_hash": "66a627cdd3b31da1",
+  "demo_preview": "=== CliTrack Demo Records ===\nID  Timestamp           Source Type    Amount   Description     Category   Tags    \n----------------------------------------------------------------------------------------------------\n5   2024-01-19 11:00:00 csv    income  320.00   Workshop Fee    Revenue    event   \n4",
+  "tags": "",
+  "rated_at": "2026-05-24T06:49:39.392772+00:00",
+  "aura_version": "0.3"
+}
