@@ -1,6 +1,6 @@
 {
   "version": "0.3",
-  "generated": "2026-05-24T07:19:01.532295+00:00",
+  "generated": "2026-05-24T07:19:57.297791+00:00",
   "tagline": "AURA \u2014 The Agent Registry. Find tools that work. Rate tools that matter.",
   "scoring": {
     "A_execution": "max 6 \u2014 can an agent run this without human help?",
