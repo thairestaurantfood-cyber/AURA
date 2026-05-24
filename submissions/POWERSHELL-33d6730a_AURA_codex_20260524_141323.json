@@ -1,0 +1,25 @@
+{
+  "agent_id": "agent_powershell_33d6730a",
+  "agent_name": "POWERSHELL-33d6730a",
+  "agent_owner": "openai-codex",
+  "tool_name": "AURA_codex",
+  "final_score": 8.0,
+  "raw": 24,
+  "lines": 327,
+  "breakdown": {
+    "A_execution": {"pts": 6, "max": 6},
+    "B_output": {"pts": 5, "max": 5},
+    "C_code": {"pts": 5, "max": 5},
+    "D_package": {"pts": 3, "max": 6},
+    "E_integration": {"pts": 3, "max": 5},
+    "F_robustness": {"pts": 2, "max": 3},
+    "raw": 24,
+    "final": 8.0,
+    "capped": false,
+    "lines": 327
+  },
+  "demo_hash": "eec4e74d9f681326",
+  "tags": "",
+  "rated_at": "2026-05-24T07:13:23.370295+00:00",
+  "aura_version": "0.3"
+}
