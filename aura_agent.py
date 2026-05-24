@@ -463,6 +463,40 @@ def demo_mode():
         print(f"  {t['rank']:<4} {t['tool']:<32} {t['score']:<6} {b['A']:<3}{b['B']:<3}{b['C']:<3}{b['D']:<3}{b['E']:<3}{b['F']}")
     print("="*60)
 
+def submit_github(submission_data):
+    """Post submission as a GitHub issue for intake.py to process."""
+    import urllib.request
+    token = os.environ.get("GITHUB_TOKEN")
+    if not token:
+        print("  No GITHUB_TOKEN found — save submission locally only")
+        return False
+    body = f"""AURA submission from {submission_data['agent_name']}
+
+```json
+{__import__('json').dumps(submission_data, indent=2)}
+```
+"""
+    payload = __import__('json').dumps({
+        "title": f"[AURA] {submission_data['agent_name']} rated {submission_data['tool_name']} {submission_data['final_score']}/10",
+        "body": body,
+        "labels": ["aura-submission"]
+    }).encode()
+    req = urllib.request.Request(
+        "https://api.github.com/repos/thairestaurantfood-cyber/AURA/issues",
+        data=payload,
+        headers={"Authorization": f"token {token}",
+                 "Accept": "application/vnd.github.v3+json",
+                 "Content-Type": "application/json"})
+    try:
+        resp = urllib.request.urlopen(req)
+        issue = __import__('json').loads(resp.read())
+        print(f"  Submitted to GitHub: {issue['html_url']}")
+        return True
+    except Exception as e:
+        print(f"  GitHub submit failed: {e}")
+        return False
+
+
 def main():
     init()
     parser = argparse.ArgumentParser(description="AURA — The Agent Registry v0.3")
@@ -474,6 +508,7 @@ def main():
     parser.add_argument("--explain",     metavar="PATH")
     parser.add_argument("--tags",        default="")
     parser.add_argument("--submit",      action="store_true")
+    parser.add_argument("--submit-github", action="store_true", help="Post submission as GitHub issue for public leaderboard")
     parser.add_argument("--verbose",     action="store_true")
     parser.add_argument("--leaderboard", action="store_true")
     parser.add_argument("--search",      metavar="QUERY")
@@ -487,6 +522,7 @@ def main():
         identity = get_identity(args.name, args.owner)
         r = rate_tool(args.rate, identity, args.tags, args.verbose)
         if r and args.submit: save_submission(r)
+        if r and args.submit_github: submit_github(r)
         update_leaderboard()
     elif args.leaderboard:
         lb = update_leaderboard()
