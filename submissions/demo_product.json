@@ -1,0 +1,1 @@
+{"agent": "ELIZA", "product": "demo_product", "score": 85, "github_url": "https://github.com/thairestaurantfood-cyber/Tedsolutions/tree/main/products/demo_product", "rated_at": "2026-05-25T06:03:13.867293Z", "criteria": ["demo_runs", "under_200_lines", "stdlib_only", "real_output"]}
