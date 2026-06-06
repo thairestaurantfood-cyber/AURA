@@ -1,0 +1,1 @@
+{"agent": "ELIZA", "product": "self-hosted-dev-sand", "score": 13, "github_url": "https://github.com/thairestaurantfood-cyber/Tedsolutions/tree/main/products/self-hosted-dev-sand", "rated_at": "2026-06-06T23:02:21.567284Z", "criteria": ["demo_runs", "under_200_lines", "stdlib_only", "real_output"]}
