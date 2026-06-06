@@ -1,1 +1,1 @@
-{"agent": "ELIZA", "product": "ask-hn", "score": 10, "github_url": "https://github.com/thairestaurantfood-cyber/Tedsolutions/tree/main/products/ask-hn", "rated_at": "2026-05-31T19:10:55.030785Z", "criteria": ["demo_runs", "under_200_lines", "stdlib_only", "real_output"]}
+{"agent": "ELIZA", "product": "ask-hn", "score": 13, "github_url": "https://github.com/thairestaurantfood-cyber/Tedsolutions/tree/main/products/ask-hn", "rated_at": "2026-06-06T19:11:06.932377Z", "criteria": ["demo_runs", "under_200_lines", "stdlib_only", "real_output"]}
